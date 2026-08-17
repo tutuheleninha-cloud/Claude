@@ -1,0 +1,76 @@
+{
+  "objects": [
+    {
+      "aliases": [
+        "ZombieBasic"
+      ],
+      "objclass": "Zombie",
+      "objdata": {
+        "Toughness": 600
+      }
+    },
+    {
+      "aliases": [
+        "ZombieConehead"
+      ],
+      "objclass": "Zombie",
+      "objdata": {
+        "Toughness": 750
+      }
+    },
+    {
+      "aliases": [
+        "ZombieBuckethead"
+      ],
+      "objclass": "Zombie",
+      "objdata": {
+        "Toughness": 1050
+      }
+    },
+    {
+      "aliases": [
+        "ZombieFlag"
+      ],
+      "objclass": "Zombie",
+      "objdata": {
+        "Toughness": 450
+      }
+    },
+    {
+      "aliases": [
+        "ZombiePole"
+      ],
+      "objclass": "Zombie",
+      "objdata": {
+        "Toughness": 100
+      }
+    },
+    {
+      "aliases": [
+        "ZombieDoorRolling"
+      ],
+      "objclass": "Zombie",
+      "objdata": {
+        "Toughness": 500
+      }
+    },
+    {
+      "aliases": [
+        "ZombieSnorkel"
+      ],
+      "objclass": "Zombie",
+      "objdata": {
+        "Toughness": 600
+      }
+    },
+    {
+      "aliases": [
+        "ZombieJackInBox"
+      ],
+      "objclass": "Zombie",
+      "objdata": {
+        "Toughness": 250
+      }
+    }
+  ]
+}

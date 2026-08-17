@@ -1,0 +1,8 @@
+{
+  "name": "Auto Rebalance",
+  "id": "auto-rebalance",
+  "version": "1.0.0",
+  "priority": 100,
+  "description": "Algorithmically rebalances plant sun costs, zombie toughness, and level wave pacing toward a smoother difficulty/power curve.",
+  "author": "tutu.heleninha"
+}

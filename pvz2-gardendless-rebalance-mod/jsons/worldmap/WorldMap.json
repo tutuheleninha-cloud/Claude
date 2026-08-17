@@ -1,0 +1,78 @@
+{
+  "Levels": [
+    {
+      "ID": "1_1",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombieBasic": 2
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieBasic": 3
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieBasic": 4,
+            "ZombieConehead": 1
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "2_1",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombieBasic": 4,
+            "ZombieConehead": 2
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieBasic": 4,
+            "ZombieConehead": 3,
+            "ZombiePole": 2
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieBasic": 3,
+            "ZombieBuckethead": 4,
+            "ZombiePole": 3
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "2_2",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombieSnorkel": 2,
+            "ZombieConehead": 2
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieSnorkel": 2,
+            "ZombiePole": 2,
+            "ZombieJackInBox": 2
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieDoorRolling": 2,
+            "ZombieBuckethead": 3,
+            "ZombiePole": 3
+          },
+          "FlagWave": true
+        }
+      ]
+    }
+  ]
+}

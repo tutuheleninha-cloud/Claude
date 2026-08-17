@@ -1,0 +1,139 @@
+{
+  "objects": [
+    {
+      "aliases": [
+        "PeaShooter"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 50
+      }
+    },
+    {
+      "aliases": [
+        "SunFlower"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 25
+      }
+    },
+    {
+      "aliases": [
+        "WallNut"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 150
+      }
+    },
+    {
+      "aliases": [
+        "CherryBomb"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 100
+      }
+    },
+    {
+      "aliases": [
+        "PotatoMine"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 50
+      }
+    },
+    {
+      "aliases": [
+        "SnowPea"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "Chomper"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 100
+      }
+    },
+    {
+      "aliases": [
+        "Repeater"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 100
+      }
+    },
+    {
+      "aliases": [
+        "Threepeater"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 150
+      }
+    },
+    {
+      "aliases": [
+        "Bloomerang"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "IcebergLettuce"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 50
+      }
+    },
+    {
+      "aliases": [
+        "BonkChoy"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "SpikeweedTrap"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 125
+      }
+    },
+    {
+      "aliases": [
+        "TallNut"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 300
+      }
+    },
+    {
+      "aliases": [
+        "SplitPea"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 50
+      }
+    }
+  ]
+}
