@@ -1,0 +1,22 @@
+{
+  "BASEUNLOCKLIST": [
+    "Threepeater",
+    "Bloomerang",
+    "Repeater",
+    "PotatoMine",
+    "CherryBomb",
+    "WallNut",
+    "SunFlower",
+    "PeaShooter"
+  ],
+  "SEEDCHOOSERDEFAULTORDER": [
+    "Threepeater",
+    "Bloomerang",
+    "Repeater",
+    "PotatoMine",
+    "CherryBomb",
+    "WallNut",
+    "SunFlower",
+    "PeaShooter"
+  ]
+}

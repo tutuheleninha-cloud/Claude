@@ -1,0 +1,25 @@
+{
+  "_comment": "SAMPLE / PLACEHOLDER DATA — this is NOT the real PvZ2 Gardendless data file. It only illustrates a plausible level/world tree shape so the reversal script has something to run against. Replace this file with your own extracted world map / level data before running the script.",
+  "Worlds": [
+    {
+      "ID": "World1",
+      "Name": "Ancient Egypt",
+      "Levels": [
+        { "ID": "1_1", "RewardPlant": "PeaShooter" },
+        { "ID": "1_2", "RewardPlant": "SunFlower" },
+        { "ID": "1_4", "RewardPlant": "WallNut" },
+        { "ID": "1_6", "RewardPlant": "CherryBomb" }
+      ]
+    },
+    {
+      "ID": "World2",
+      "Name": "Pirate Seas",
+      "Levels": [
+        { "ID": "2_1", "RewardPlant": "PotatoMine" },
+        { "ID": "2_3", "RewardPlant": "Repeater" },
+        { "ID": "2_5", "RewardPlant": "Bloomerang" },
+        { "ID": "2_7", "RewardPlant": "Threepeater" }
+      ]
+    }
+  ]
+}

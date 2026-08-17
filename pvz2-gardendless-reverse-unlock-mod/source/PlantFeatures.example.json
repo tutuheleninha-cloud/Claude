@@ -1,0 +1,23 @@
+{
+  "_comment": "SAMPLE / PLACEHOLDER DATA — this is NOT the real PvZ2 Gardendless data file. It only illustrates the shape described in the mod docs (BASEUNLOCKLIST, SEEDCHOOSERDEFAULTORDER). Replace this file with your own extracted PlantFeatures.json before running the script.",
+  "BASEUNLOCKLIST": [
+    "PeaShooter",
+    "SunFlower",
+    "WallNut",
+    "CherryBomb",
+    "PotatoMine",
+    "Repeater",
+    "Bloomerang",
+    "Threepeater"
+  ],
+  "SEEDCHOOSERDEFAULTORDER": [
+    "PeaShooter",
+    "SunFlower",
+    "WallNut",
+    "CherryBomb",
+    "PotatoMine",
+    "Repeater",
+    "Bloomerang",
+    "Threepeater"
+  ]
+}

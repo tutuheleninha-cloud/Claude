@@ -1,0 +1,36 @@
+{
+  "Levels": [
+    {
+      "ID": "1_1",
+      "RewardPlant": "Threepeater"
+    },
+    {
+      "ID": "1_2",
+      "RewardPlant": "Bloomerang"
+    },
+    {
+      "ID": "1_4",
+      "RewardPlant": "Repeater"
+    },
+    {
+      "ID": "1_6",
+      "RewardPlant": "PotatoMine"
+    },
+    {
+      "ID": "2_1",
+      "RewardPlant": "CherryBomb"
+    },
+    {
+      "ID": "2_3",
+      "RewardPlant": "WallNut"
+    },
+    {
+      "ID": "2_5",
+      "RewardPlant": "SunFlower"
+    },
+    {
+      "ID": "2_7",
+      "RewardPlant": "PeaShooter"
+    }
+  ]
+}
