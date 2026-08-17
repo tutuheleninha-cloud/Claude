@@ -1,8 +1,9 @@
 # Auto Rebalance — a PvZ2 Gardendless mod
 
 Rebalances plants, zombies, and levels in [PvZ2 Gardendless](https://pvzge.com/en/)
-(an open-source, fan-made PC rewrite of Plants vs Zombies 2). Three
-independent, already-finished patches — nothing to build or run:
+(an open-source, fan-made PC rewrite of Plants vs Zombies 2), across all 11
+mainline PvZ2 worlds: 46 plants, 44 zombies, 22 levels. Three independent,
+already-finished patches — nothing to build or run:
 
 - **`jsons/objects/PlantProps.json`** — adjusts each plant's `SunCost` so its
   (offense + defense) value *per sun spent* trends toward the roster
@@ -46,14 +47,26 @@ This pack targets Gardendless's documented **GP-Next** mod system
    the confirmed plant schema. They may not match your install's real field
    names — if a file doesn't take effect in-game, that's the most likely
    reason.
-3. **The base numbers are a reference roster, not extracted from your
-   game.** The `SunCost`/`Damage`/`Toughness` starting values this mod's
-   math ran against are well-known, public classic-PvZ2 numbers for a
-   ~15-plant / 8-zombie / 4-level slice (Ancient Egypt & Pirate Seas), not
-   pulled from Gardendless's actual current data files — I don't have
-   access to those. If Gardendless has since added, removed, or re-tuned
-   any of the entries below, this mod won't know about it, and it doesn't
-   cover plants/zombies/levels outside that list.
+3. **The base numbers are not extracted from your game, and their
+   reliability drops the further into the roster you go.** None of this
+   was pulled from Gardendless's actual current data files — I don't have
+   access to those. Two different levels of confidence went into the
+   starting values this mod's math ran against:
+   - **Ancient Egypt & Pirate Seas (10 plants, 8 zombies, 4 levels):**
+     well-known, public classic-PvZ2 numbers I'm reasonably confident in.
+   - **The other 9 worlds (36 plants, 36 zombies, 18 levels):** I don't
+     have reliable per-item stat recall for that much of the real PvZ2
+     roster, so rather than guess specific "facts" I'd likely get wrong,
+     these were generated from a documented tier + archetype formula
+     (attacker/sun-producer/wall/bomb/utility for plants; basic/armored/
+     tank/fast for zombies), scaled by world order. Plant and zombie
+     *names* are best-effort recollections of real PvZ2 content and may
+     not all be correctly attributed to the world listed, may not use
+     Gardendless's real internal `CODENAME`s, and Gardendless itself may
+     not include all of them (modding can't add content it doesn't
+     already have). Treat worlds 3–11 below as a large, internally
+     consistent stress-test of the rebalance math, not a verified guide
+     to either real PvZ2 or Gardendless's actual roster.
 
 ## Installing the mod in-game
 
@@ -65,14 +78,27 @@ This pack targets Gardendless's documented **GP-Next** mod system
 
 ## What's covered
 
-**Plants:** PeaShooter, SunFlower, WallNut, CherryBomb, PotatoMine,
-SnowPea, Chomper, Repeater, Threepeater, Bloomerang, IcebergLettuce,
-BonkChoy, SpikeweedTrap, TallNut, SplitPea.
+11 worlds, 2 levels each (`<world#>_1`, `<world#>_2`). Worlds 1–2 use known
+real values; worlds 3–11 use the estimated tier/archetype formula (see
+caveat #3 above).
 
-**Zombies:** ZombieBasic, ZombieConehead, ZombieBuckethead, ZombieFlag,
-ZombiePole, ZombieDoorRolling, ZombieSnorkel, ZombieJackInBox.
+| # | World | Plants | Zombies |
+|---|---|---|---|
+| 1 | Ancient Egypt | PeaShooter, SunFlower, WallNut, CherryBomb, PotatoMine | ZombieBasic, ZombieConehead, ZombieBuckethead, ZombieFlag |
+| 2 | Pirate Seas | SnowPea, Chomper, Repeater, Threepeater, Bloomerang | ZombieSnorkel, ZombiePole, ZombieBarrelRoller, ZombieSwashbuckler |
+| 3 | Wild West | HotPotato, ChiliBean, GraveBuster, BowlingBulb | ZombieProspector, ZombiePianist, ZombieChickenWrangler, ZombieRodeoLegend |
+| 4 | Dark Ages | BonkChoy, SpikeweedTrap, Grimrose, WitchHazel | ZombieKnight, ZombieWizard, ZombieFootSoldier, ZombieImp |
+| 5 | Far Future | LaserBean, InfiNut, TallNut, SplitPea | ZombieJetpack, ZombieZ7Mech, ZombieBot, ZombieGargantuarFuture |
+| 6 | Frostbite Caves | Hurrikale, Toadstool, Bombegranate, IcebergLettuce | ZombieWeaselHoarder, ZombieFrostyRider, ZombieYetiImp, ZombieIceTrooper |
+| 7 | Lost City | PerfumeShroom, GoldLeaf, RootsPlant, PowerLily | ZombieExcavator, ZombieTombRaiser, ZombieRelicHunter, ZombieStoneGuard |
+| 8 | Neon Mixtape Tour | HyperShroom, BeetBoxer, DiscoPea, RockpultPlant | ZombieBreakdancer, ZombieGlitter, ZombieDiscoBoss, ZombieRollerSkater |
+| 9 | Jurassic Marsh | Snapdragon, PrimalPeaShooter, PrimalWallNut, PrimalSunflower | ZombiePrimalGargantuar, ZombieRaptorRider, ZombiePterodactyl, ZombieCaveman |
+| 10 | Big Wave Beach | LavaGuava, ShellBean, SeaKelp, CoconutCannon | ZombieFisherman, ZombieSurfer, ZombieLifeguard, ZombieOctopusRider |
+| 11 | Modern Day | Gloomshroom, Wintermelon, GatlingPea, Cactus | ZombieNewspaper, ZombieDancing, ZombieBackupDancer, ZombieScreenDoor |
 
-**Levels:** 1_1, 1_2 (Ancient Egypt), 2_1, 2_2 (Pirate Seas).
+Not covered: premium/gem-exclusive plants, event- or arena-only content,
+and worlds added after Modern Day (e.g. Sky City) — confidence in even the
+names for those is too low to include responsibly.
 
 ## Folder contents
 

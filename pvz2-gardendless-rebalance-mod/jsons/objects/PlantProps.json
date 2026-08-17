@@ -15,7 +15,7 @@
       ],
       "objclass": "Plant",
       "objdata": {
-        "SunCost": 25
+        "SunCost": 50
       }
     },
     {
@@ -24,7 +24,7 @@
       ],
       "objclass": "Plant",
       "objdata": {
-        "SunCost": 150
+        "SunCost": 250
       }
     },
     {
@@ -33,7 +33,7 @@
       ],
       "objclass": "Plant",
       "objdata": {
-        "SunCost": 100
+        "SunCost": 150
       }
     },
     {
@@ -42,7 +42,7 @@
       ],
       "objclass": "Plant",
       "objdata": {
-        "SunCost": 50
+        "SunCost": 100
       }
     },
     {
@@ -51,7 +51,7 @@
       ],
       "objclass": "Plant",
       "objdata": {
-        "SunCost": 75
+        "SunCost": 100
       }
     },
     {
@@ -60,7 +60,7 @@
       ],
       "objclass": "Plant",
       "objdata": {
-        "SunCost": 100
+        "SunCost": 125
       }
     },
     {
@@ -87,16 +87,43 @@
       ],
       "objclass": "Plant",
       "objdata": {
-        "SunCost": 75
+        "SunCost": 100
       }
     },
     {
       "aliases": [
-        "IcebergLettuce"
+        "HotPotato"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 150
+      }
+    },
+    {
+      "aliases": [
+        "ChiliBean"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 150
+      }
+    },
+    {
+      "aliases": [
+        "GraveBuster"
       ],
       "objclass": "Plant",
       "objdata": {
         "SunCost": 50
+      }
+    },
+    {
+      "aliases": [
+        "BowlingBulb"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 75
       }
     },
     {
@@ -114,7 +141,43 @@
       ],
       "objclass": "Plant",
       "objdata": {
-        "SunCost": 125
+        "SunCost": 150
+      }
+    },
+    {
+      "aliases": [
+        "Grimrose"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "WitchHazel"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "LaserBean"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "InfiNut"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 300
       }
     },
     {
@@ -132,7 +195,223 @@
       ],
       "objclass": "Plant",
       "objdata": {
+        "SunCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "Hurrikale"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "Toadstool"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "Bombegranate"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 175
+      }
+    },
+    {
+      "aliases": [
+        "IcebergLettuce"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "PerfumeShroom"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "GoldLeaf"
+      ],
+      "objclass": "Plant",
+      "objdata": {
         "SunCost": 50
+      }
+    },
+    {
+      "aliases": [
+        "RootsPlant"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "PowerLily"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 50
+      }
+    },
+    {
+      "aliases": [
+        "HyperShroom"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 125
+      }
+    },
+    {
+      "aliases": [
+        "BeetBoxer"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 125
+      }
+    },
+    {
+      "aliases": [
+        "DiscoPea"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 125
+      }
+    },
+    {
+      "aliases": [
+        "RockpultPlant"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 125
+      }
+    },
+    {
+      "aliases": [
+        "Snapdragon"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 125
+      }
+    },
+    {
+      "aliases": [
+        "PrimalPeaShooter"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 125
+      }
+    },
+    {
+      "aliases": [
+        "PrimalWallNut"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 425
+      }
+    },
+    {
+      "aliases": [
+        "PrimalSunflower"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 50
+      }
+    },
+    {
+      "aliases": [
+        "LavaGuava"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 200
+      }
+    },
+    {
+      "aliases": [
+        "ShellBean"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 450
+      }
+    },
+    {
+      "aliases": [
+        "SeaKelp"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "CoconutCannon"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 125
+      }
+    },
+    {
+      "aliases": [
+        "Gloomshroom"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 125
+      }
+    },
+    {
+      "aliases": [
+        "Wintermelon"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 125
+      }
+    },
+    {
+      "aliases": [
+        "GatlingPea"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 125
+      }
+    },
+    {
+      "aliases": [
+        "Cactus"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 125
       }
     }
   ]

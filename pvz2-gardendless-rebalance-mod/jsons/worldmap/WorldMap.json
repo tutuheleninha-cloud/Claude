@@ -5,18 +5,56 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieBasic": 2
+            "ZombieBasic": 2,
+            "ZombieConehead": 4,
+            "ZombieBuckethead": 6,
+            "ZombieFlag": 8
           }
         },
         {
           "Zombies": {
-            "ZombieBasic": 3
+            "ZombieBasic": 2,
+            "ZombieConehead": 4,
+            "ZombieBuckethead": 5,
+            "ZombieFlag": 7
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieBasic": 3,
+            "ZombieConehead": 6,
+            "ZombieBuckethead": 9,
+            "ZombieFlag": 11
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "1_2",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombieBasic": 3,
+            "ZombieConehead": 6,
+            "ZombieBuckethead": 8,
+            "ZombieFlag": 11
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieBasic": 2,
+            "ZombieConehead": 5,
+            "ZombieBuckethead": 7,
+            "ZombieFlag": 11
           }
         },
         {
           "Zombies": {
             "ZombieBasic": 4,
-            "ZombieConehead": 1
+            "ZombieConehead": 8,
+            "ZombieBuckethead": 12,
+            "ZombieFlag": 16
           },
           "FlagWave": true
         }
@@ -27,22 +65,26 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieBasic": 4,
-            "ZombieConehead": 2
+            "ZombieSnorkel": 2,
+            "ZombiePole": 4,
+            "ZombieBarrelRoller": 6,
+            "ZombieSwashbuckler": 8
           }
         },
         {
           "Zombies": {
-            "ZombieBasic": 4,
-            "ZombieConehead": 3,
-            "ZombiePole": 2
+            "ZombieSnorkel": 2,
+            "ZombiePole": 4,
+            "ZombieBarrelRoller": 5,
+            "ZombieSwashbuckler": 7
           }
         },
         {
           "Zombies": {
-            "ZombieBasic": 3,
-            "ZombieBuckethead": 4,
-            "ZombiePole": 3
+            "ZombieSnorkel": 3,
+            "ZombiePole": 6,
+            "ZombieBarrelRoller": 9,
+            "ZombieSwashbuckler": 12
           },
           "FlagWave": true
         }
@@ -53,22 +95,566 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieSnorkel": 2,
-            "ZombieConehead": 2
+            "ZombieSnorkel": 3,
+            "ZombiePole": 6,
+            "ZombieBarrelRoller": 8,
+            "ZombieSwashbuckler": 11
           }
         },
         {
           "Zombies": {
             "ZombieSnorkel": 2,
-            "ZombiePole": 2,
-            "ZombieJackInBox": 2
+            "ZombiePole": 5,
+            "ZombieBarrelRoller": 7,
+            "ZombieSwashbuckler": 11
           }
         },
         {
           "Zombies": {
-            "ZombieDoorRolling": 2,
-            "ZombieBuckethead": 3,
-            "ZombiePole": 3
+            "ZombieSnorkel": 4,
+            "ZombiePole": 8,
+            "ZombieBarrelRoller": 12,
+            "ZombieSwashbuckler": 16
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "3_1",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombieProspector": 2,
+            "ZombiePianist": 4,
+            "ZombieChickenWrangler": 6,
+            "ZombieRodeoLegend": 8
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieProspector": 2,
+            "ZombiePianist": 4,
+            "ZombieChickenWrangler": 5,
+            "ZombieRodeoLegend": 7
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieProspector": 3,
+            "ZombiePianist": 6,
+            "ZombieChickenWrangler": 9,
+            "ZombieRodeoLegend": 11
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "3_2",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombieProspector": 3,
+            "ZombiePianist": 6,
+            "ZombieChickenWrangler": 8,
+            "ZombieRodeoLegend": 11
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieProspector": 2,
+            "ZombiePianist": 5,
+            "ZombieChickenWrangler": 7,
+            "ZombieRodeoLegend": 11
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieProspector": 4,
+            "ZombiePianist": 8,
+            "ZombieChickenWrangler": 12,
+            "ZombieRodeoLegend": 16
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "4_1",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombieKnight": 2,
+            "ZombieWizard": 4,
+            "ZombieFootSoldier": 6,
+            "ZombieImp": 8
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieKnight": 2,
+            "ZombieWizard": 4,
+            "ZombieFootSoldier": 5,
+            "ZombieImp": 7
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieKnight": 3,
+            "ZombieWizard": 6,
+            "ZombieFootSoldier": 9,
+            "ZombieImp": 12
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "4_2",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombieKnight": 3,
+            "ZombieWizard": 6,
+            "ZombieFootSoldier": 8,
+            "ZombieImp": 11
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieKnight": 2,
+            "ZombieWizard": 5,
+            "ZombieFootSoldier": 7,
+            "ZombieImp": 11
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieKnight": 4,
+            "ZombieWizard": 8,
+            "ZombieFootSoldier": 12,
+            "ZombieImp": 16
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "5_1",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombieJetpack": 2,
+            "ZombieZ7Mech": 4,
+            "ZombieBot": 6,
+            "ZombieGargantuarFuture": 8
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieJetpack": 2,
+            "ZombieZ7Mech": 4,
+            "ZombieBot": 5,
+            "ZombieGargantuarFuture": 7
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieJetpack": 3,
+            "ZombieZ7Mech": 6,
+            "ZombieBot": 9,
+            "ZombieGargantuarFuture": 12
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "5_2",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombieJetpack": 3,
+            "ZombieZ7Mech": 6,
+            "ZombieBot": 8,
+            "ZombieGargantuarFuture": 11
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieJetpack": 2,
+            "ZombieZ7Mech": 5,
+            "ZombieBot": 7,
+            "ZombieGargantuarFuture": 11
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieJetpack": 4,
+            "ZombieZ7Mech": 8,
+            "ZombieBot": 12,
+            "ZombieGargantuarFuture": 16
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "6_1",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombieWeaselHoarder": 2,
+            "ZombieFrostyRider": 4,
+            "ZombieYetiImp": 6,
+            "ZombieIceTrooper": 8
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieWeaselHoarder": 2,
+            "ZombieFrostyRider": 4,
+            "ZombieYetiImp": 5,
+            "ZombieIceTrooper": 7
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieWeaselHoarder": 3,
+            "ZombieFrostyRider": 6,
+            "ZombieYetiImp": 9,
+            "ZombieIceTrooper": 12
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "6_2",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombieWeaselHoarder": 3,
+            "ZombieFrostyRider": 6,
+            "ZombieYetiImp": 8,
+            "ZombieIceTrooper": 11
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieWeaselHoarder": 2,
+            "ZombieFrostyRider": 5,
+            "ZombieYetiImp": 7,
+            "ZombieIceTrooper": 11
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieWeaselHoarder": 4,
+            "ZombieFrostyRider": 8,
+            "ZombieYetiImp": 12,
+            "ZombieIceTrooper": 16
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "7_1",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombieExcavator": 2,
+            "ZombieTombRaiser": 4,
+            "ZombieRelicHunter": 6,
+            "ZombieStoneGuard": 8
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieExcavator": 2,
+            "ZombieTombRaiser": 4,
+            "ZombieRelicHunter": 5,
+            "ZombieStoneGuard": 7
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieExcavator": 3,
+            "ZombieTombRaiser": 6,
+            "ZombieRelicHunter": 9,
+            "ZombieStoneGuard": 12
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "7_2",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombieExcavator": 3,
+            "ZombieTombRaiser": 6,
+            "ZombieRelicHunter": 8,
+            "ZombieStoneGuard": 11
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieExcavator": 2,
+            "ZombieTombRaiser": 5,
+            "ZombieRelicHunter": 7,
+            "ZombieStoneGuard": 11
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieExcavator": 4,
+            "ZombieTombRaiser": 8,
+            "ZombieRelicHunter": 12,
+            "ZombieStoneGuard": 16
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "8_1",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombieBreakdancer": 2,
+            "ZombieGlitter": 4,
+            "ZombieDiscoBoss": 6,
+            "ZombieRollerSkater": 8
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieBreakdancer": 2,
+            "ZombieGlitter": 4,
+            "ZombieDiscoBoss": 5,
+            "ZombieRollerSkater": 7
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieBreakdancer": 3,
+            "ZombieGlitter": 6,
+            "ZombieDiscoBoss": 9,
+            "ZombieRollerSkater": 11
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "8_2",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombieBreakdancer": 3,
+            "ZombieGlitter": 6,
+            "ZombieDiscoBoss": 8,
+            "ZombieRollerSkater": 11
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieBreakdancer": 2,
+            "ZombieGlitter": 5,
+            "ZombieDiscoBoss": 7,
+            "ZombieRollerSkater": 11
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieBreakdancer": 4,
+            "ZombieGlitter": 8,
+            "ZombieDiscoBoss": 12,
+            "ZombieRollerSkater": 16
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "9_1",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombiePrimalGargantuar": 2,
+            "ZombieRaptorRider": 4,
+            "ZombiePterodactyl": 6,
+            "ZombieCaveman": 8
+          }
+        },
+        {
+          "Zombies": {
+            "ZombiePrimalGargantuar": 2,
+            "ZombieRaptorRider": 4,
+            "ZombiePterodactyl": 5,
+            "ZombieCaveman": 7
+          }
+        },
+        {
+          "Zombies": {
+            "ZombiePrimalGargantuar": 3,
+            "ZombieRaptorRider": 6,
+            "ZombiePterodactyl": 9,
+            "ZombieCaveman": 12
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "9_2",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombiePrimalGargantuar": 3,
+            "ZombieRaptorRider": 6,
+            "ZombiePterodactyl": 8,
+            "ZombieCaveman": 11
+          }
+        },
+        {
+          "Zombies": {
+            "ZombiePrimalGargantuar": 2,
+            "ZombieRaptorRider": 5,
+            "ZombiePterodactyl": 7,
+            "ZombieCaveman": 11
+          }
+        },
+        {
+          "Zombies": {
+            "ZombiePrimalGargantuar": 4,
+            "ZombieRaptorRider": 8,
+            "ZombiePterodactyl": 12,
+            "ZombieCaveman": 16
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "10_1",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombieFisherman": 2,
+            "ZombieSurfer": 4,
+            "ZombieLifeguard": 6,
+            "ZombieOctopusRider": 8
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieFisherman": 2,
+            "ZombieSurfer": 4,
+            "ZombieLifeguard": 5,
+            "ZombieOctopusRider": 7
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieFisherman": 3,
+            "ZombieSurfer": 6,
+            "ZombieLifeguard": 9,
+            "ZombieOctopusRider": 11
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "10_2",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombieFisherman": 3,
+            "ZombieSurfer": 6,
+            "ZombieLifeguard": 8,
+            "ZombieOctopusRider": 11
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieFisherman": 2,
+            "ZombieSurfer": 5,
+            "ZombieLifeguard": 7,
+            "ZombieOctopusRider": 11
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieFisherman": 4,
+            "ZombieSurfer": 8,
+            "ZombieLifeguard": 12,
+            "ZombieOctopusRider": 16
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "11_1",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombieNewspaper": 2,
+            "ZombieDancing": 4,
+            "ZombieBackupDancer": 6,
+            "ZombieScreenDoor": 8
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieNewspaper": 2,
+            "ZombieDancing": 4,
+            "ZombieBackupDancer": 5,
+            "ZombieScreenDoor": 7
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieNewspaper": 3,
+            "ZombieDancing": 6,
+            "ZombieBackupDancer": 9,
+            "ZombieScreenDoor": 12
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "11_2",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombieNewspaper": 3,
+            "ZombieDancing": 6,
+            "ZombieBackupDancer": 8,
+            "ZombieScreenDoor": 11
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieNewspaper": 2,
+            "ZombieDancing": 5,
+            "ZombieBackupDancer": 7,
+            "ZombieScreenDoor": 11
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieNewspaper": 4,
+            "ZombieDancing": 8,
+            "ZombieBackupDancer": 12,
+            "ZombieScreenDoor": 16
           },
           "FlagWave": true
         }
