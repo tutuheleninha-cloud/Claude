@@ -1,0 +1,30 @@
+{
+  "Gem": [
+    {
+      "CODENAME": "HighlandCabbage"
+    },
+    {
+      "CODENAME": "Spineapple"
+    },
+    {
+      "CODENAME": "GrapeShot"
+    },
+    {
+      "CODENAME": "TitanFrost"
+    }
+  ],
+  "Ticket": [
+    {
+      "CODENAME": "SapFling"
+    },
+    {
+      "CODENAME": "ConcussiveCoconut"
+    },
+    {
+      "CODENAME": "EMPeach"
+    },
+    {
+      "CODENAME": "Parsnip"
+    }
+  ]
+}
