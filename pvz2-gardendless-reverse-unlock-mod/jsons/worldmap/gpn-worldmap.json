@@ -1,0 +1,849 @@
+{
+  "apiVersion": 1,
+  "worlds": {
+    "egypt": {
+      "map": {
+        "mode": "replace",
+        "mainline": [
+          {
+            "id": "lvl-egypt-1",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "egypt1"
+            ],
+            "title": "1"
+          },
+          {
+            "id": "plant-egypt-1",
+            "type": "plant",
+            "plantReward": "PeaNut"
+          },
+          {
+            "id": "lvl-egypt-2",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "egypt2"
+            ],
+            "title": "2"
+          },
+          {
+            "id": "plant-egypt-2",
+            "type": "plant",
+            "plantReward": "ShrinkingViolet"
+          },
+          {
+            "id": "lvl-egypt-3",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "egypt3"
+            ],
+            "title": "3"
+          },
+          {
+            "id": "plant-egypt-3",
+            "type": "plant",
+            "plantReward": "AloeVera"
+          },
+          {
+            "id": "lvl-egypt-4",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "egypt4"
+            ],
+            "title": "4"
+          },
+          {
+            "id": "plant-egypt-4",
+            "type": "plant",
+            "plantReward": "PerfumeShroom"
+          },
+          {
+            "id": "lvl-egypt-5",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "egypt5"
+            ],
+            "title": "5"
+          },
+          {
+            "id": "plant-egypt-5",
+            "type": "plant",
+            "plantReward": "Toadstool"
+          }
+        ]
+      }
+    },
+    "pirateseas": {
+      "map": {
+        "mode": "replace",
+        "mainline": [
+          {
+            "id": "lvl-pirateseas-1",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "pirateseas1"
+            ],
+            "title": "1"
+          },
+          {
+            "id": "plant-pirateseas-1",
+            "type": "plant",
+            "plantReward": "Escapea"
+          },
+          {
+            "id": "lvl-pirateseas-2",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "pirateseas2"
+            ],
+            "title": "2"
+          },
+          {
+            "id": "plant-pirateseas-2",
+            "type": "plant",
+            "plantReward": "Blover"
+          },
+          {
+            "id": "lvl-pirateseas-3",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "pirateseas3"
+            ],
+            "title": "3"
+          },
+          {
+            "id": "plant-pirateseas-3",
+            "type": "plant",
+            "plantReward": "MagnifyingGrass"
+          },
+          {
+            "id": "lvl-pirateseas-4",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "pirateseas4"
+            ],
+            "title": "4"
+          },
+          {
+            "id": "plant-pirateseas-4",
+            "type": "plant",
+            "plantReward": "Cactus"
+          },
+          {
+            "id": "lvl-pirateseas-5",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "pirateseas5"
+            ],
+            "title": "5"
+          },
+          {
+            "id": "plant-pirateseas-5",
+            "type": "plant",
+            "plantReward": "GatlingPea"
+          }
+        ]
+      }
+    },
+    "wildwest": {
+      "map": {
+        "mode": "replace",
+        "mainline": [
+          {
+            "id": "lvl-wildwest-1",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "wildwest1"
+            ],
+            "title": "1"
+          },
+          {
+            "id": "plant-wildwest-1",
+            "type": "plant",
+            "plantReward": "Wintermelon"
+          },
+          {
+            "id": "lvl-wildwest-2",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "wildwest2"
+            ],
+            "title": "2"
+          },
+          {
+            "id": "plant-wildwest-2",
+            "type": "plant",
+            "plantReward": "Gloomshroom"
+          },
+          {
+            "id": "lvl-wildwest-3",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "wildwest3"
+            ],
+            "title": "3"
+          },
+          {
+            "id": "plant-wildwest-3",
+            "type": "plant",
+            "plantReward": "CoconutCannon"
+          },
+          {
+            "id": "lvl-wildwest-4",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "wildwest4"
+            ],
+            "title": "4"
+          },
+          {
+            "id": "plant-wildwest-4",
+            "type": "plant",
+            "plantReward": "SeaKelp"
+          }
+        ]
+      }
+    },
+    "darkages": {
+      "map": {
+        "mode": "replace",
+        "mainline": [
+          {
+            "id": "lvl-darkages-1",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "darkages1"
+            ],
+            "title": "1"
+          },
+          {
+            "id": "plant-darkages-1",
+            "type": "plant",
+            "plantReward": "ShellBean"
+          },
+          {
+            "id": "lvl-darkages-2",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "darkages2"
+            ],
+            "title": "2"
+          },
+          {
+            "id": "plant-darkages-2",
+            "type": "plant",
+            "plantReward": "LavaGuava"
+          },
+          {
+            "id": "lvl-darkages-3",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "darkages3"
+            ],
+            "title": "3"
+          },
+          {
+            "id": "plant-darkages-3",
+            "type": "plant",
+            "plantReward": "PrimalSunflower"
+          },
+          {
+            "id": "lvl-darkages-4",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "darkages4"
+            ],
+            "title": "4"
+          },
+          {
+            "id": "plant-darkages-4",
+            "type": "plant",
+            "plantReward": "PrimalWallNut"
+          }
+        ]
+      }
+    },
+    "farfuture": {
+      "map": {
+        "mode": "replace",
+        "mainline": [
+          {
+            "id": "lvl-farfuture-1",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "farfuture1"
+            ],
+            "title": "1"
+          },
+          {
+            "id": "plant-farfuture-1",
+            "type": "plant",
+            "plantReward": "PrimalPeaShooter"
+          },
+          {
+            "id": "lvl-farfuture-2",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "farfuture2"
+            ],
+            "title": "2"
+          },
+          {
+            "id": "plant-farfuture-2",
+            "type": "plant",
+            "plantReward": "Snapdragon"
+          },
+          {
+            "id": "lvl-farfuture-3",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "farfuture3"
+            ],
+            "title": "3"
+          },
+          {
+            "id": "plant-farfuture-3",
+            "type": "plant",
+            "plantReward": "RockpultPlant"
+          },
+          {
+            "id": "lvl-farfuture-4",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "farfuture4"
+            ],
+            "title": "4"
+          },
+          {
+            "id": "plant-farfuture-4",
+            "type": "plant",
+            "plantReward": "DiscoPea"
+          }
+        ]
+      }
+    },
+    "frostbitecaves": {
+      "map": {
+        "mode": "replace",
+        "mainline": [
+          {
+            "id": "lvl-frostbitecaves-1",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "frostbitecaves1"
+            ],
+            "title": "1"
+          },
+          {
+            "id": "plant-frostbitecaves-1",
+            "type": "plant",
+            "plantReward": "BeetBoxer"
+          },
+          {
+            "id": "lvl-frostbitecaves-2",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "frostbitecaves2"
+            ],
+            "title": "2"
+          },
+          {
+            "id": "plant-frostbitecaves-2",
+            "type": "plant",
+            "plantReward": "HyperShroom"
+          },
+          {
+            "id": "lvl-frostbitecaves-3",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "frostbitecaves3"
+            ],
+            "title": "3"
+          },
+          {
+            "id": "plant-frostbitecaves-3",
+            "type": "plant",
+            "plantReward": "PowerLily"
+          },
+          {
+            "id": "lvl-frostbitecaves-4",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "frostbitecaves4"
+            ],
+            "title": "4"
+          },
+          {
+            "id": "plant-frostbitecaves-4",
+            "type": "plant",
+            "plantReward": "RootsPlant"
+          }
+        ]
+      }
+    },
+    "lostcity": {
+      "map": {
+        "mode": "replace",
+        "mainline": [
+          {
+            "id": "lvl-lostcity-1",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "lostcity1"
+            ],
+            "title": "1"
+          },
+          {
+            "id": "plant-lostcity-1",
+            "type": "plant",
+            "plantReward": "GoldLeaf"
+          },
+          {
+            "id": "lvl-lostcity-2",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "lostcity2"
+            ],
+            "title": "2"
+          },
+          {
+            "id": "plant-lostcity-2",
+            "type": "plant",
+            "plantReward": "ColdSnapdragon"
+          },
+          {
+            "id": "lvl-lostcity-3",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "lostcity3"
+            ],
+            "title": "3"
+          },
+          {
+            "id": "plant-lostcity-3",
+            "type": "plant",
+            "plantReward": "Bombegranate"
+          }
+        ]
+      }
+    },
+    "neonmixtapetour": {
+      "map": {
+        "mode": "replace",
+        "mainline": [
+          {
+            "id": "lvl-neonmixtapetour-1",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "neonmixtapetour1"
+            ],
+            "title": "1"
+          },
+          {
+            "id": "plant-neonmixtapetour-1",
+            "type": "plant",
+            "plantReward": "IcebergLettuce"
+          },
+          {
+            "id": "lvl-neonmixtapetour-2",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "neonmixtapetour2"
+            ],
+            "title": "2"
+          },
+          {
+            "id": "plant-neonmixtapetour-2",
+            "type": "plant",
+            "plantReward": "Hurrikale"
+          },
+          {
+            "id": "lvl-neonmixtapetour-3",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "neonmixtapetour3"
+            ],
+            "title": "3"
+          },
+          {
+            "id": "plant-neonmixtapetour-3",
+            "type": "plant",
+            "plantReward": "SplitPea"
+          },
+          {
+            "id": "lvl-neonmixtapetour-4",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "neonmixtapetour4"
+            ],
+            "title": "4"
+          },
+          {
+            "id": "plant-neonmixtapetour-4",
+            "type": "plant",
+            "plantReward": "TallNut"
+          }
+        ]
+      }
+    },
+    "jurassicmarsh": {
+      "map": {
+        "mode": "replace",
+        "mainline": [
+          {
+            "id": "lvl-jurassicmarsh-1",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "jurassicmarsh1"
+            ],
+            "title": "1"
+          },
+          {
+            "id": "plant-jurassicmarsh-1",
+            "type": "plant",
+            "plantReward": "InfiNut"
+          },
+          {
+            "id": "lvl-jurassicmarsh-2",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "jurassicmarsh2"
+            ],
+            "title": "2"
+          },
+          {
+            "id": "plant-jurassicmarsh-2",
+            "type": "plant",
+            "plantReward": "LaserBean"
+          },
+          {
+            "id": "lvl-jurassicmarsh-3",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "jurassicmarsh3"
+            ],
+            "title": "3"
+          },
+          {
+            "id": "plant-jurassicmarsh-3",
+            "type": "plant",
+            "plantReward": "WitchHazel"
+          },
+          {
+            "id": "lvl-jurassicmarsh-4",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "jurassicmarsh4"
+            ],
+            "title": "4"
+          },
+          {
+            "id": "plant-jurassicmarsh-4",
+            "type": "plant",
+            "plantReward": "Grimrose"
+          }
+        ]
+      }
+    },
+    "bigwavebeach": {
+      "map": {
+        "mode": "replace",
+        "mainline": [
+          {
+            "id": "lvl-bigwavebeach-1",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "bigwavebeach1"
+            ],
+            "title": "1"
+          },
+          {
+            "id": "plant-bigwavebeach-1",
+            "type": "plant",
+            "plantReward": "SpikeweedTrap"
+          },
+          {
+            "id": "lvl-bigwavebeach-2",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "bigwavebeach2"
+            ],
+            "title": "2"
+          },
+          {
+            "id": "plant-bigwavebeach-2",
+            "type": "plant",
+            "plantReward": "BonkChoy"
+          },
+          {
+            "id": "lvl-bigwavebeach-3",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "bigwavebeach3"
+            ],
+            "title": "3"
+          },
+          {
+            "id": "plant-bigwavebeach-3",
+            "type": "plant",
+            "plantReward": "BowlingBulb"
+          },
+          {
+            "id": "lvl-bigwavebeach-4",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "bigwavebeach4"
+            ],
+            "title": "4"
+          },
+          {
+            "id": "plant-bigwavebeach-4",
+            "type": "plant",
+            "plantReward": "GraveBuster"
+          }
+        ]
+      }
+    },
+    "modernday": {
+      "map": {
+        "mode": "replace",
+        "mainline": [
+          {
+            "id": "lvl-modernday-1",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "modernday1"
+            ],
+            "title": "1"
+          },
+          {
+            "id": "plant-modernday-1",
+            "type": "plant",
+            "plantReward": "ChiliBean"
+          },
+          {
+            "id": "lvl-modernday-2",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "modernday2"
+            ],
+            "title": "2"
+          },
+          {
+            "id": "plant-modernday-2",
+            "type": "plant",
+            "plantReward": "HotPotato"
+          },
+          {
+            "id": "lvl-modernday-3",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "modernday3"
+            ],
+            "title": "3"
+          },
+          {
+            "id": "plant-modernday-3",
+            "type": "plant",
+            "plantReward": "Bloomerang"
+          },
+          {
+            "id": "lvl-modernday-4",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "modernday4"
+            ],
+            "title": "4"
+          },
+          {
+            "id": "plant-modernday-4",
+            "type": "plant",
+            "plantReward": "Threepeater"
+          }
+        ]
+      }
+    },
+    "skycity": {
+      "map": {
+        "mode": "replace",
+        "mainline": [
+          {
+            "id": "lvl-skycity-1",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "skycity1"
+            ],
+            "title": "1"
+          },
+          {
+            "id": "plant-skycity-1",
+            "type": "plant",
+            "plantReward": "Repeater"
+          },
+          {
+            "id": "lvl-skycity-2",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "skycity2"
+            ],
+            "title": "2"
+          },
+          {
+            "id": "plant-skycity-2",
+            "type": "plant",
+            "plantReward": "Chomper"
+          },
+          {
+            "id": "lvl-skycity-3",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "skycity3"
+            ],
+            "title": "3"
+          },
+          {
+            "id": "plant-skycity-3",
+            "type": "plant",
+            "plantReward": "SnowPea"
+          }
+        ]
+      }
+    },
+    "epicquest": {
+      "map": {
+        "mode": "replace",
+        "mainline": [
+          {
+            "id": "epicquest-portal",
+            "type": "epicPortal",
+            "portalLevels": [
+              "epicquest1",
+              "epicquest2",
+              "epicquest3",
+              "epicquest4",
+              "epicquest5"
+            ]
+          },
+          {
+            "id": "lvl-epicquest-1",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "epicquest1"
+            ],
+            "title": "1"
+          },
+          {
+            "id": "plant-epicquest-1",
+            "type": "plant",
+            "plantReward": "PotatoMine"
+          },
+          {
+            "id": "lvl-epicquest-2",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "epicquest2"
+            ],
+            "title": "2"
+          },
+          {
+            "id": "plant-epicquest-2",
+            "type": "plant",
+            "plantReward": "CherryBomb"
+          },
+          {
+            "id": "lvl-epicquest-3",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "epicquest3"
+            ],
+            "title": "3"
+          },
+          {
+            "id": "plant-epicquest-3",
+            "type": "plant",
+            "plantReward": "WallNut"
+          },
+          {
+            "id": "lvl-epicquest-4",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "epicquest4"
+            ],
+            "title": "4"
+          },
+          {
+            "id": "plant-epicquest-4",
+            "type": "plant",
+            "plantReward": "SunFlower"
+          },
+          {
+            "id": "lvl-epicquest-5",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "epicquest5"
+            ],
+            "title": "5"
+          },
+          {
+            "id": "plant-epicquest-5",
+            "type": "plant",
+            "plantReward": "PeaShooter"
+          }
+        ]
+      }
+    }
+  }
+}

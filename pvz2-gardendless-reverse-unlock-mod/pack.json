@@ -1,8 +1,8 @@
 {
   "name": "Reverse Almanac Order",
   "id": "reverse-unlock-order",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "priority": 100,
-  "description": "Reverses the seed-chooser order across the full 61-plant Almanac roster and the Gem/Ticket Shop costs in PvZ2 Gardendless (excluding Zen Garden Mint). Per-level and Epic Quest reward reversal was removed as unsafe to fabricate against the real 'replace'-mode worldmap schema.",
+  "description": "Reverses the seed-chooser order, Gem/Ticket Shop costs, and where each plant is unlocked (world map + Epic Quest, 53 slots) in PvZ2 Gardendless (excluding Zen Garden Mint). World map patch is experimental (requires enabling worldmap-json) and only the 'egypt' world codename/level-ID pattern is confirmed against real docs -- back up your save.",
   "author": "tutu.heleninha"
 }
