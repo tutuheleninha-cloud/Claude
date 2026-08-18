@@ -24,7 +24,7 @@
       ],
       "objclass": "Plant",
       "objdata": {
-        "SunCost": 250
+        "SunCost": 275
       }
     },
     {
@@ -177,7 +177,7 @@
       ],
       "objclass": "Plant",
       "objdata": {
-        "SunCost": 300
+        "SunCost": 325
       }
     },
     {
@@ -186,7 +186,7 @@
       ],
       "objclass": "Plant",
       "objdata": {
-        "SunCost": 300
+        "SunCost": 325
       }
     },
     {
@@ -357,7 +357,7 @@
       ],
       "objclass": "Plant",
       "objdata": {
-        "SunCost": 450
+        "SunCost": 475
       }
     },
     {
@@ -384,7 +384,7 @@
       ],
       "objclass": "Plant",
       "objdata": {
-        "SunCost": 125
+        "SunCost": 150
       }
     },
     {
@@ -393,7 +393,7 @@
       ],
       "objclass": "Plant",
       "objdata": {
-        "SunCost": 125
+        "SunCost": 150
       }
     },
     {
@@ -402,7 +402,7 @@
       ],
       "objclass": "Plant",
       "objdata": {
-        "SunCost": 125
+        "SunCost": 150
       }
     },
     {
@@ -411,7 +411,79 @@
       ],
       "objclass": "Plant",
       "objdata": {
-        "SunCost": 125
+        "SunCost": 150
+      }
+    },
+    {
+      "aliases": [
+        "MagnifyingGrass"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 150
+      }
+    },
+    {
+      "aliases": [
+        "AloeVera"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 100
+      }
+    },
+    {
+      "aliases": [
+        "Blover"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 100
+      }
+    },
+    {
+      "aliases": [
+        "Escapea"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 150
+      }
+    },
+    {
+      "aliases": [
+        "ShrinkingViolet"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 150
+      }
+    },
+    {
+      "aliases": [
+        "PeaNut"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 500
+      }
+    },
+    {
+      "aliases": [
+        "TitanFrost"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 225
+      }
+    },
+    {
+      "aliases": [
+        "GrapeShot"
+      ],
+      "objclass": "Plant",
+      "objdata": {
+        "SunCost": 150
       }
     }
   ]

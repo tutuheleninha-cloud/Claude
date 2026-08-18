@@ -659,6 +659,66 @@
           "FlagWave": true
         }
       ]
+    },
+    {
+      "ID": "12_1",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombieDrone": 2,
+            "ZombieHoverboard": 4,
+            "ZombieCloudRider": 6,
+            "ZombieStormTrooper": 8
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieDrone": 2,
+            "ZombieHoverboard": 4,
+            "ZombieCloudRider": 5,
+            "ZombieStormTrooper": 7
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieDrone": 3,
+            "ZombieHoverboard": 6,
+            "ZombieCloudRider": 9,
+            "ZombieStormTrooper": 12
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "12_2",
+      "Waves": [
+        {
+          "Zombies": {
+            "ZombieDrone": 3,
+            "ZombieHoverboard": 6,
+            "ZombieCloudRider": 8,
+            "ZombieStormTrooper": 11
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieDrone": 2,
+            "ZombieHoverboard": 5,
+            "ZombieCloudRider": 7,
+            "ZombieStormTrooper": 11
+          }
+        },
+        {
+          "Zombies": {
+            "ZombieDrone": 4,
+            "ZombieHoverboard": 8,
+            "ZombieCloudRider": 12,
+            "ZombieStormTrooper": 16
+          },
+          "FlagWave": true
+        }
+      ]
     }
   ]
 }

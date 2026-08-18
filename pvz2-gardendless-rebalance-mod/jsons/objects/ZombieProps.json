@@ -6,7 +6,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 750
+        "Toughness": 800
       }
     },
     {
@@ -15,7 +15,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 900
+        "Toughness": 950
       }
     },
     {
@@ -24,7 +24,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 1200
+        "Toughness": 1250
       }
     },
     {
@@ -33,7 +33,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 600
+        "Toughness": 650
       }
     },
     {
@@ -42,7 +42,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 750
+        "Toughness": 800
       }
     },
     {
@@ -51,7 +51,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 150
+        "Toughness": 200
       }
     },
     {
@@ -60,7 +60,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 1500
+        "Toughness": 1550
       }
     },
     {
@@ -69,7 +69,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 1050
+        "Toughness": 1100
       }
     },
     {
@@ -78,7 +78,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 800
+        "Toughness": 850
       }
     },
     {
@@ -87,7 +87,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 1100
+        "Toughness": 1150
       }
     },
     {
@@ -96,7 +96,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 350
+        "Toughness": 400
       }
     },
     {
@@ -105,7 +105,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 1550
+        "Toughness": 1600
       }
     },
     {
@@ -123,7 +123,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 850
+        "Toughness": 900
       }
     },
     {
@@ -132,7 +132,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 1150
+        "Toughness": 1200
       }
     },
     {
@@ -141,7 +141,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 350
+        "Toughness": 400
       }
     },
     {
@@ -159,7 +159,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 1700
+        "Toughness": 1750
       }
     },
     {
@@ -168,7 +168,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 1200
+        "Toughness": 1250
       }
     },
     {
@@ -177,7 +177,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 1700
+        "Toughness": 1750
       }
     },
     {
@@ -186,7 +186,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 900
+        "Toughness": 950
       }
     },
     {
@@ -195,7 +195,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 300
+        "Toughness": 350
       }
     },
     {
@@ -204,7 +204,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 300
+        "Toughness": 350
       }
     },
     {
@@ -222,7 +222,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 1800
+        "Toughness": 1850
       }
     },
     {
@@ -231,7 +231,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 1250
+        "Toughness": 1300
       }
     },
     {
@@ -240,7 +240,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 900
+        "Toughness": 950
       }
     },
     {
@@ -249,7 +249,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 1800
+        "Toughness": 1850
       }
     },
     {
@@ -258,7 +258,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 250
+        "Toughness": 300
       }
     },
     {
@@ -267,7 +267,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 950
+        "Toughness": 1000
       }
     },
     {
@@ -276,7 +276,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 1850
+        "Toughness": 1900
       }
     },
     {
@@ -285,7 +285,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 250
+        "Toughness": 300
       }
     },
     {
@@ -303,7 +303,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 250
+        "Toughness": 300
       }
     },
     {
@@ -312,7 +312,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 250
+        "Toughness": 300
       }
     },
     {
@@ -321,7 +321,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 950
+        "Toughness": 1000
       }
     },
     {
@@ -348,7 +348,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 1400
+        "Toughness": 1450
       }
     },
     {
@@ -357,7 +357,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 2000
+        "Toughness": 2050
       }
     },
     {
@@ -375,7 +375,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 200
+        "Toughness": 250
       }
     },
     {
@@ -384,7 +384,7 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 1000
+        "Toughness": 1050
       }
     },
     {
@@ -393,7 +393,43 @@
       ],
       "objclass": "Zombie",
       "objdata": {
-        "Toughness": 2050
+        "Toughness": 2100
+      }
+    },
+    {
+      "aliases": [
+        "ZombieDrone"
+      ],
+      "objclass": "Zombie",
+      "objdata": {
+        "Toughness": 250
+      }
+    },
+    {
+      "aliases": [
+        "ZombieHoverboard"
+      ],
+      "objclass": "Zombie",
+      "objdata": {
+        "Toughness": 250
+      }
+    },
+    {
+      "aliases": [
+        "ZombieCloudRider"
+      ],
+      "objclass": "Zombie",
+      "objdata": {
+        "Toughness": 1500
+      }
+    },
+    {
+      "aliases": [
+        "ZombieStormTrooper"
+      ],
+      "objclass": "Zombie",
+      "objdata": {
+        "Toughness": 2150
       }
     }
   ]

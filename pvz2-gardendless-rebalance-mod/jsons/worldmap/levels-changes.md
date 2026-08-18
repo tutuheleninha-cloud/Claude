@@ -1,6 +1,6 @@
 # Level rebalance changes
 
-_22 levels across 11 worlds_
+_24 levels across 12 worlds_
 
 | Level | Wave | Old | New |
 |---|---|---|---|
@@ -48,3 +48,7 @@ _22 levels across 11 worlds_
 | 11_1 | 3 | {"ZombieNewspaper":5,"ZombieDancing":10,"ZombieBackupDancer":15,"ZombieScreenDoor":20} | {"ZombieNewspaper":3,"ZombieDancing":6,"ZombieBackupDancer":9,"ZombieScreenDoor":12} |
 | 11_2 | 2 | {"ZombieNewspaper":1,"ZombieDancing":3,"ZombieBackupDancer":4,"ZombieScreenDoor":6} | {"ZombieNewspaper":2,"ZombieDancing":5,"ZombieBackupDancer":7,"ZombieScreenDoor":11} |
 | 11_2 | 3 | {"ZombieNewspaper":7,"ZombieDancing":14,"ZombieBackupDancer":21,"ZombieScreenDoor":28} | {"ZombieNewspaper":4,"ZombieDancing":8,"ZombieBackupDancer":12,"ZombieScreenDoor":16} |
+| 12_1 | 2 | {"ZombieDrone":1,"ZombieHoverboard":2,"ZombieCloudRider":3,"ZombieStormTrooper":4} | {"ZombieDrone":2,"ZombieHoverboard":4,"ZombieCloudRider":5,"ZombieStormTrooper":7} |
+| 12_1 | 3 | {"ZombieDrone":5,"ZombieHoverboard":10,"ZombieCloudRider":15,"ZombieStormTrooper":20} | {"ZombieDrone":3,"ZombieHoverboard":6,"ZombieCloudRider":9,"ZombieStormTrooper":12} |
+| 12_2 | 2 | {"ZombieDrone":1,"ZombieHoverboard":3,"ZombieCloudRider":4,"ZombieStormTrooper":6} | {"ZombieDrone":2,"ZombieHoverboard":5,"ZombieCloudRider":7,"ZombieStormTrooper":11} |
+| 12_2 | 3 | {"ZombieDrone":7,"ZombieHoverboard":14,"ZombieCloudRider":21,"ZombieStormTrooper":28} | {"ZombieDrone":4,"ZombieHoverboard":8,"ZombieCloudRider":12,"ZombieStormTrooper":16} |

@@ -1,9 +1,10 @@
 # Auto Rebalance — a PvZ2 Gardendless mod
 
 Rebalances plants, zombies, and levels in [PvZ2 Gardendless](https://pvzge.com/en/)
-(an open-source, fan-made PC rewrite of Plants vs Zombies 2), across all 11
-mainline PvZ2 worlds: 46 plants, 44 zombies, 22 levels. Three independent,
-already-finished patches — nothing to build or run:
+(an open-source, fan-made PC rewrite of Plants vs Zombies 2), across all 12
+mainline PvZ2 worlds plus a cross-world premium/gem plant group: 54 plants,
+48 zombies, 24 levels. Three independent, already-finished patches —
+nothing to build or run:
 
 - **`jsons/objects/PlantProps.json`** — adjusts each plant's `SunCost` so its
   (offense + defense) value *per sun spent* trends toward the roster
@@ -54,19 +55,22 @@ This pack targets Gardendless's documented **GP-Next** mod system
    starting values this mod's math ran against:
    - **Ancient Egypt & Pirate Seas (10 plants, 8 zombies, 4 levels):**
      well-known, public classic-PvZ2 numbers I'm reasonably confident in.
-   - **The other 9 worlds (36 plants, 36 zombies, 18 levels):** I don't
-     have reliable per-item stat recall for that much of the real PvZ2
-     roster, so rather than guess specific "facts" I'd likely get wrong,
-     these were generated from a documented tier + archetype formula
-     (attacker/sun-producer/wall/bomb/utility for plants; basic/armored/
-     tank/fast for zombies), scaled by world order. Plant and zombie
-     *names* are best-effort recollections of real PvZ2 content and may
-     not all be correctly attributed to the world listed, may not use
+   - **The other 10 worlds + premium group (44 plants, 40 zombies, 20
+     levels):** I don't have reliable per-item stat recall for that much of
+     the real PvZ2 roster, so rather than guess specific "facts" I'd likely
+     get wrong, these were generated from a documented tier + archetype
+     formula (attacker/sun-producer/wall/bomb/utility for plants; basic/
+     armored/tank/fast for zombies), scaled by world order. Plant and
+     zombie *names* are best-effort recollections of real PvZ2 content and
+     may not all be correctly attributed to the world listed, may not use
      Gardendless's real internal `CODENAME`s, and Gardendless itself may
-     not include all of them (modding can't add content it doesn't
-     already have). Treat worlds 3–11 below as a large, internally
-     consistent stress-test of the rebalance math, not a verified guide
-     to either real PvZ2 or Gardendless's actual roster.
+     not include all of them (modding can't add content it doesn't already
+     have) — Sky City and the four premium/gem plants in particular are my
+     lowest-confidence entries in this mod, both on naming and on whether
+     Gardendless includes them at all. Treat worlds 3–12 and the premium
+     group below as a large, internally consistent stress-test of the
+     rebalance math, not a verified guide to either real PvZ2 or
+     Gardendless's actual roster.
 
 ## Installing the mod in-game
 
@@ -78,9 +82,10 @@ This pack targets Gardendless's documented **GP-Next** mod system
 
 ## What's covered
 
-11 worlds, 2 levels each (`<world#>_1`, `<world#>_2`). Worlds 1–2 use known
-real values; worlds 3–11 use the estimated tier/archetype formula (see
-caveat #3 above).
+12 worlds, 2 levels each (`<world#>_1`, `<world#>_2`), plus 4 cross-world
+premium/gem plants (no levels — premium plants aren't tied to a world in
+real PvZ2 either). Worlds 1–2 use known real values; everything else uses
+the estimated tier/archetype formula (see caveat #3 above).
 
 | # | World | Plants | Zombies |
 |---|---|---|---|
@@ -95,10 +100,13 @@ caveat #3 above).
 | 9 | Jurassic Marsh | Snapdragon, PrimalPeaShooter, PrimalWallNut, PrimalSunflower | ZombiePrimalGargantuar, ZombieRaptorRider, ZombiePterodactyl, ZombieCaveman |
 | 10 | Big Wave Beach | LavaGuava, ShellBean, SeaKelp, CoconutCannon | ZombieFisherman, ZombieSurfer, ZombieLifeguard, ZombieOctopusRider |
 | 11 | Modern Day | Gloomshroom, Wintermelon, GatlingPea, Cactus | ZombieNewspaper, ZombieDancing, ZombieBackupDancer, ZombieScreenDoor |
+| 12 | Sky City | MagnifyingGrass, AloeVera, Blover, Escapea | ZombieDrone, ZombieHoverboard, ZombieCloudRider, ZombieStormTrooper |
+| — | Premium (cross-world) | ShrinkingViolet, PeaNut, TitanFrost, GrapeShot | _(none — zombies aren't a purchased/premium concept in PvZ2)_ |
 
-Not covered: premium/gem-exclusive plants, event- or arena-only content,
-and worlds added after Modern Day (e.g. Sky City) — confidence in even the
-names for those is too low to include responsibly.
+Still not covered, on purpose: event- or arena-only content (Piñata Party,
+Battlez, Epic Quest exclusives), and boss zombies (Zomboss forms) — these
+are one-off/unique fights rather than roster entries a cost/toughness
+normalization pass makes sense against.
 
 ## Folder contents
 
