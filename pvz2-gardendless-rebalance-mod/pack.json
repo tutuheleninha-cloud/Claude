@@ -1,9 +1,9 @@
 {
   "uuid": "e21462ab-86c6-4060-b045-99ff728bdb8f",
   "name": "Auto Rebalance",
-  "version": "4.0.0",
+  "version": "5.0.0",
   "priority": 100,
-  "description": "Algorithmically rebalances plant sun costs, zombie toughness, and level wave pacing toward a smoother difficulty/power curve, across all 12 mainline PvZ2 worlds plus premium/gem plants.",
+  "description": "Algorithmically rebalances plant sun costs (163 real plants, from the user's uploaded PlantFeatures.json/PlantProps.json), plus estimated zombie toughness and level wave pacing across 12 guessed worlds -- zombie/level portion is not yet backed by real data.",
   "author": "tutu.heleninha",
   "packFormatVersion": 1,
   "gameVersion": "0.7.1",

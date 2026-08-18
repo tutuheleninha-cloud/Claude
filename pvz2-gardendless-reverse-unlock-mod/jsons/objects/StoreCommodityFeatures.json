@@ -1,36 +1,136 @@
 {
   "Plants": [
     {
-      "CommodityName": "titanfrost",
+      "CommodityName": "floawerpot",
+      "CurrencyRequired": 25
+    },
+    {
+      "CommodityName": "firepeashooter",
+      "CurrencyRequired": 200
+    },
+    {
+      "CommodityName": "homingthistle",
+      "CurrencyRequired": 175
+    },
+    {
+      "CommodityName": "starfruit",
+      "CurrencyRequired": 150
+    },
+    {
+      "CommodityName": "dragonbruit",
+      "CurrencyRequired": 125
+    },
+    {
+      "CommodityName": "chomper",
+      "CurrencyRequired": 100
+    },
+    {
+      "CommodityName": "missiletoe",
+      "CurrencyRequired": 75
+    },
+    {
+      "CommodityName": "cranjelly",
+      "CurrencyRequired": 50
+    },
+    {
+      "CommodityName": "jalapeno",
+      "CurrencyRequired": 25
+    },
+    {
+      "CommodityName": "cactus",
+      "CurrencyRequired": 200
+    },
+    {
+      "CommodityName": "powerlily",
+      "CurrencyRequired": 175
+    },
+    {
+      "CommodityName": "hurrikale",
+      "CurrencyRequired": 150
+    },
+    {
+      "CommodityName": "electricpeashooter",
+      "CurrencyRequired": 125
+    },
+    {
+      "CommodityName": "explodeonut",
       "CurrencyRequired": 100
     },
     {
       "CommodityName": "grapeshot",
+      "CurrencyRequired": 75
+    },
+    {
+      "CommodityName": "jackolantern",
       "CurrencyRequired": 50
     },
     {
-      "CommodityName": "spineapple",
-      "CurrencyRequired": 20
+      "CommodityName": "hypnoshroom",
+      "CurrencyRequired": 25
     },
     {
-      "CommodityName": "highlandcabbage",
-      "CurrencyRequired": 5
+      "CommodityName": "escaperoot",
+      "CurrencyRequired": 200
     },
     {
-      "CommodityName": "parsnip",
-      "CurrencyRequired": 2000
+      "CommodityName": "applemortar",
+      "CurrencyRequired": 175
     },
     {
-      "CommodityName": "empeach",
-      "CurrencyRequired": 1200
+      "CommodityName": "peanut",
+      "CurrencyRequired": 150
     },
     {
-      "CommodityName": "concussivecoconut",
-      "CurrencyRequired": 600
+      "CommodityName": "toadstool",
+      "CurrencyRequired": 125
     },
     {
-      "CommodityName": "sapfling",
-      "CurrencyRequired": 300
+      "CommodityName": "lavaguava",
+      "CurrencyRequired": 100
+    },
+    {
+      "CommodityName": "electricblueberry",
+      "CurrencyRequired": 75
+    },
+    {
+      "CommodityName": "coldsnapdragon",
+      "CurrencyRequired": 50
+    },
+    {
+      "CommodityName": "shrinkingviolet",
+      "CurrencyRequired": 25
+    },
+    {
+      "CommodityName": "snowdrop",
+      "CurrencyRequired": 200
+    },
+    {
+      "CommodityName": "bamboozle",
+      "CurrencyRequired": 175
+    },
+    {
+      "CommodityName": "iceweed",
+      "CurrencyRequired": 150
+    },
+    {
+      "CommodityName": "pinkstarfruit",
+      "CurrencyRequired": 125
+    },
+    {
+      "CommodityName": "zoybeanpod",
+      "CurrencyRequired": 100
+    },
+    {
+      "CommodityName": "caulipower",
+      "CurrencyRequired": 75
+    },
+    {
+      "CommodityName": "asparagus",
+      "CurrencyRequired": 50
+    },
+    {
+      "CommodityName": "chillypepper",
+      "CurrencyRequired": 25
     }
   ]
 }
