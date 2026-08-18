@@ -1,30 +1,36 @@
 {
-  "Gem": [
+  "Plants": [
     {
-      "CODENAME": "HighlandCabbage"
+      "CommodityName": "titanfrost",
+      "CurrencyRequired": 100
     },
     {
-      "CODENAME": "Spineapple"
+      "CommodityName": "grapeshot",
+      "CurrencyRequired": 50
     },
     {
-      "CODENAME": "GrapeShot"
+      "CommodityName": "spineapple",
+      "CurrencyRequired": 20
     },
     {
-      "CODENAME": "TitanFrost"
-    }
-  ],
-  "Ticket": [
-    {
-      "CODENAME": "SapFling"
+      "CommodityName": "highlandcabbage",
+      "CurrencyRequired": 5
     },
     {
-      "CODENAME": "ConcussiveCoconut"
+      "CommodityName": "parsnip",
+      "CurrencyRequired": 2000
     },
     {
-      "CODENAME": "EMPeach"
+      "CommodityName": "empeach",
+      "CurrencyRequired": 1200
     },
     {
-      "CODENAME": "Parsnip"
+      "CommodityName": "concussivecoconut",
+      "CurrencyRequired": 600
+    },
+    {
+      "CommodityName": "sapfling",
+      "CurrencyRequired": 300
     }
   ]
 }

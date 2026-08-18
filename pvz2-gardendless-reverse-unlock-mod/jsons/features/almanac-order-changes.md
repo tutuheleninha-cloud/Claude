@@ -1,8 +1,8 @@
-# Almanac order reversal
+# Seed-chooser order reversal (SEEDCHOOSERDEFAULTORDER)
 
-_61 plants (Main Adventure + Epic Quest + Ticket Shop + Gem Shop; Zen Garden "Mint" excluded)_
+_61 plants (Main Adventure + Epic Quest + Ticket Shop + Gem Shop; Zen Garden "Mint" excluded). BASEUNLOCKLIST is no longer touched — see README for why._
 
-| # | Original almanac order | Reversed order |
+| # | Original order | Reversed order |
 |---|---|---|
 | 1 | PeaShooter | HighlandCabbage |
 | 2 | SunFlower | Spineapple |

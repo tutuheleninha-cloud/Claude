@@ -1,8 +1,8 @@
 {
-  "name": "Reverse Unlock Order",
+  "name": "Reverse Almanac Order",
   "id": "reverse-unlock-order",
-  "version": "3.0.0",
+  "version": "4.0.0",
   "priority": 100,
-  "description": "Reverses the full Almanac plant order, plus the Gem Shop, Ticket Shop, and Epic Quest reward orders in their own right, in PvZ2 Gardendless (excluding Zen Garden Mint): the plant you'd normally unlock last is now unlocked first, and vice versa.",
+  "description": "Reverses the seed-chooser order across the full 61-plant Almanac roster and the Gem/Ticket Shop costs in PvZ2 Gardendless (excluding Zen Garden Mint). Per-level and Epic Quest reward reversal was removed as unsafe to fabricate against the real 'replace'-mode worldmap schema.",
   "author": "tutu.heleninha"
 }
