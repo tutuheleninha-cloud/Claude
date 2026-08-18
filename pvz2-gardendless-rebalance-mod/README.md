@@ -120,8 +120,17 @@ jsons/worldmap/WorldMap.json       - rebalanced level wave zombie counts
 jsons/worldmap/levels-changes.md   - before/after table for levels
 ```
 
+## Note on `pack.json`
+
+Updated to match the real manifest schema found in the docs
+(`gp-next-datapack.md`): added `uuid`, `packFormatVersion`, `gameVersion`,
+and `gpNextVersion` (the earlier `id` field isn't part of the real
+schema). See the reverse-almanac-order mod's README for the verbatim
+template this was corrected against.
+
 ## Sources
 
 - [PvZ2 Gardendless official site](https://pvzge.com/en/)
 - [pvzge_web — game source (GitHub)](https://github.com/Gzh0821/pvzge_web)
 - [Types & Fields — mod format docs (GitHub)](https://github.com/Gzh0821/pvzg_site/blob/main/src/en/guide/mod/format.md)
+- [gp-next-datapack.md (raw, GitHub)](https://raw.githubusercontent.com/Gzh0821/pvzg_site/refs/heads/main/src/en/guide/mod/gp-next-datapack.md) — source of the real `pack.json` template

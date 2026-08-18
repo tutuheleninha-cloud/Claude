@@ -31,6 +31,38 @@ requires enabling **`worldmap-json` in the in-game Experimental settings**
 before it does anything at all. Neither of those is me being cautious —
 it's the mod author's own stated risk level for this specific feature.
 
+## v5 → v6: pack.json fixed against the real manifest schema
+
+Found the real `pack.json` template, verbatim, in the official docs
+(`gp-next-datapack.md`):
+
+```json
+{
+  "uuid": "xxxxxxxx-xxxx-4xxx-yxxx-xxxxxxxxxxxx",
+  "name": "My Custom Mod",
+  "version": "1.0.0",
+  "priority": 100,
+  "description": "Description of the mod",
+  "author": "Your name",
+  "packFormatVersion": 1,
+  "gameVersion": "0.7.1",
+  "gpNextVersion": ">=1.0.0"
+}
+```
+
+This mod's `pack.json` was missing `uuid`, `packFormatVersion`,
+`gameVersion`, and `gpNextVersion` (and had an `id` field the real schema
+doesn't use) — fixed to match. Also added the confirmed declaration for
+using the experimental world-map feature:
+
+```json
+{ "requiredGpNextFeatures": ["experimental.worldMapJson"] }
+```
+
+You still need to separately enable the experimental setting in-game (see
+Installing below) — this field just declares the dependency so GP-Next
+can recognize it.
+
 ## v4 → v5: why the per-level/Epic-Quest reversal is back
 
 The previous version removed this because I hadn't confirmed the real
@@ -143,3 +175,4 @@ jsons/worldmap/worldmap-changes.md        - before/after table, per node
 - [gp-next-worldmap.md (raw, GitHub)](https://raw.githubusercontent.com/Gzh0821/pvzg_site/refs/heads/main/src/en/guide/mod/gp-next-worldmap.md) — source of the confirmed example above, the `worldmap-json` experimental-flag requirement, and the save-backup warning
 - [gpn-worldmap.schema.json (raw, GitHub)](https://raw.githubusercontent.com/Gzh0821/pvzg_site/refs/heads/main/src/.vuepress/public/jsons/schema/gpn-worldmap.schema.json) — confirms node types and the `mainline`/`branches`/"replace"-mode structure
 - [gpn-plant-levels.schema.json (raw, GitHub)](https://raw.githubusercontent.com/Gzh0821/pvzg_site/refs/heads/main/src/.vuepress/public/jsons/schema/gpn-plant-levels.schema.json) — confirms plant "levels" are a seed-packet power-up system, unrelated to roster unlocking
+- [gp-next-datapack.md (raw, GitHub)](https://raw.githubusercontent.com/Gzh0821/pvzg_site/refs/heads/main/src/en/guide/mod/gp-next-datapack.md) — source of the real `pack.json` template and `requiredGpNextFeatures` above
