@@ -15,13 +15,36 @@ Three independent, already-finished patches — nothing to build or run:
 - **`jsons/objects/StoreCommodityFeatures.json`** — reverses illustrative
   costs across the real 33-plant "market" (Shop) roster.
 - **`jsons/worldmap/gpn-worldmap.json`** — rebuilds the world map's
-  progression (`mainline`) for all 16 real worlds + Epic Quest found in
-  your data, reversing which `plant`-type node grants which plant,
-  globally across all 138 reward slots.
+  progression (`mainline`) for 15 real worlds + Epic Quest (excludes
+  `frontyard` — see v8→v9 below), reversing which `plant`-type node
+  grants which plant, globally across all 133 reward slots.
 
 See `jsons/features/almanac-order-changes.md`,
 `jsons/objects/shop-order-changes.md`, and
 `jsons/worldmap/worldmap-changes.md` for exactly what changed in each file.
+
+## v8 → v9: two confirmed bugs fixed from real testing
+
+You reported two specific things after the v8 fix got the pack loading:
+
+1. **Frontyard plants didn't change.** This lines up with `BASEUNLOCKLIST`
+   — confirmed real, exactly
+   `["peashooter","sunflower","wallnut","potatomine"]` — pre-granting
+   those plants the moment a save is created, independent of any
+   `mainline` node. The frontyard/tutorial levels still exist for onboarding,
+   but there's nothing for a reversed `plantReward` to change: you already
+   own the plant before reaching the node. **`frontyard` is now excluded
+   from the world map reversal entirely** (down from 138 to 133 reward
+   slots) rather than shipping a patch that provably does nothing.
+2. **The "New Plant!" reveal screen didn't show the reversed plant.**
+   Re-checked the docs and found: `plant`/`upgrade`/`giftBox`/`epicPortal`
+   nodes all require an explicit `"template"` object (e.g.
+   `"template": {"type": "plant"}`) — every plant node in this mod was
+   missing it. That's now added to every plant-reward node. This is the
+   most likely explanation, but it's still worth confirming after
+   reinstalling — if the reveal screen still shows the wrong plant, that
+   points to a *different* field driving that specific screen, and I'd
+   need another round to track it down.
 
 ## v7 → v8: fixed "nothing changes at all" even with the experimental flag on
 
@@ -60,7 +83,9 @@ doing to narrow it down further:
 Gardendless's own docs say **"Users should back up saves before
 testing"** the world-map feature specifically. `gpn-worldmap.json` also
 requires enabling **`worldMapJson` in the in-game Experimental
-settings** — see `requiredGpNextFeatures` in `pack.json`.
+settings** (a manual toggle you set yourself — `pack.json` no longer
+declares this as a required feature, since that field was implicated in
+an earlier "nothing loads" bug; see v7→v8 below).
 
 ## v6 → v7: rebuilt from your real uploaded data
 
@@ -138,7 +163,7 @@ jsons/features/PlantFeatures.json         - reversed SEEDCHOOSERDEFAULTORDER (16
 jsons/features/almanac-order-changes.md   - full before/after table
 jsons/objects/StoreCommodityFeatures.json - reversed Shop costs (real 33-plant roster)
 jsons/objects/shop-order-changes.md       - before/after table
-jsons/worldmap/gpn-worldmap.json          - reversed world-map plant rewards (16 real worlds + Epic Quest, 138 slots)
+jsons/worldmap/gpn-worldmap.json          - reversed world-map plant rewards (15 real worlds + Epic Quest, 133 slots)
 jsons/worldmap/worldmap-changes.md        - before/after table, per node
 ```
 
