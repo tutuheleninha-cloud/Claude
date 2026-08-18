@@ -5,26 +5,23 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieBasic": 2,
-            "ZombieConehead": 4,
-            "ZombieBuckethead": 6,
-            "ZombieFlag": 8
+            "tutorial": 2,
+            "duckytube": 4,
+            "modern_moonflower_shield": 6
           }
         },
         {
           "Zombies": {
-            "ZombieBasic": 2,
-            "ZombieConehead": 4,
-            "ZombieBuckethead": 5,
-            "ZombieFlag": 7
+            "tutorial": 2,
+            "duckytube": 4,
+            "modern_moonflower_shield": 5
           }
         },
         {
           "Zombies": {
-            "ZombieBasic": 3,
-            "ZombieConehead": 6,
-            "ZombieBuckethead": 9,
-            "ZombieFlag": 11
+            "tutorial": 3,
+            "duckytube": 6,
+            "modern_moonflower_shield": 8
           },
           "FlagWave": true
         }
@@ -35,26 +32,23 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieBasic": 3,
-            "ZombieConehead": 6,
-            "ZombieBuckethead": 8,
-            "ZombieFlag": 11
+            "tutorial": 3,
+            "duckytube": 6,
+            "modern_moonflower_shield": 8
           }
         },
         {
           "Zombies": {
-            "ZombieBasic": 2,
-            "ZombieConehead": 5,
-            "ZombieBuckethead": 7,
-            "ZombieFlag": 11
+            "tutorial": 2,
+            "duckytube": 6,
+            "modern_moonflower_shield": 7
           }
         },
         {
           "Zombies": {
-            "ZombieBasic": 4,
-            "ZombieConehead": 8,
-            "ZombieBuckethead": 12,
-            "ZombieFlag": 16
+            "tutorial": 4,
+            "duckytube": 8,
+            "modern_moonflower_shield": 12
           },
           "FlagWave": true
         }
@@ -65,26 +59,26 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieSnorkel": 2,
-            "ZombiePole": 4,
-            "ZombieBarrelRoller": 6,
-            "ZombieSwashbuckler": 8
+            "mummy": 2,
+            "ra": 4,
+            "camel_segment": 6,
+            "camel_onehump": 8
           }
         },
         {
           "Zombies": {
-            "ZombieSnorkel": 2,
-            "ZombiePole": 4,
-            "ZombieBarrelRoller": 5,
-            "ZombieSwashbuckler": 7
+            "mummy": 2,
+            "ra": 4,
+            "camel_segment": 5,
+            "camel_onehump": 7
           }
         },
         {
           "Zombies": {
-            "ZombieSnorkel": 3,
-            "ZombiePole": 6,
-            "ZombieBarrelRoller": 9,
-            "ZombieSwashbuckler": 12
+            "mummy": 3,
+            "ra": 6,
+            "camel_segment": 9,
+            "camel_onehump": 12
           },
           "FlagWave": true
         }
@@ -95,26 +89,26 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieSnorkel": 3,
-            "ZombiePole": 6,
-            "ZombieBarrelRoller": 8,
-            "ZombieSwashbuckler": 11
+            "mummy": 3,
+            "ra": 6,
+            "camel_segment": 8,
+            "camel_onehump": 11
           }
         },
         {
           "Zombies": {
-            "ZombieSnorkel": 2,
-            "ZombiePole": 5,
-            "ZombieBarrelRoller": 7,
-            "ZombieSwashbuckler": 11
+            "mummy": 2,
+            "ra": 5,
+            "camel_segment": 7,
+            "camel_onehump": 11
           }
         },
         {
           "Zombies": {
-            "ZombieSnorkel": 4,
-            "ZombiePole": 8,
-            "ZombieBarrelRoller": 12,
-            "ZombieSwashbuckler": 16
+            "mummy": 4,
+            "ra": 8,
+            "camel_segment": 12,
+            "camel_onehump": 16
           },
           "FlagWave": true
         }
@@ -125,26 +119,26 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieProspector": 2,
-            "ZombiePianist": 4,
-            "ZombieChickenWrangler": 6,
-            "ZombieRodeoLegend": 8
+            "pirate": 2,
+            "swashbuckler": 4,
+            "seagull": 6,
+            "pelican": 8
           }
         },
         {
           "Zombies": {
-            "ZombieProspector": 2,
-            "ZombiePianist": 4,
-            "ZombieChickenWrangler": 5,
-            "ZombieRodeoLegend": 7
+            "pirate": 2,
+            "swashbuckler": 4,
+            "seagull": 5,
+            "pelican": 7
           }
         },
         {
           "Zombies": {
-            "ZombieProspector": 3,
-            "ZombiePianist": 6,
-            "ZombieChickenWrangler": 9,
-            "ZombieRodeoLegend": 11
+            "pirate": 3,
+            "swashbuckler": 6,
+            "seagull": 8,
+            "pelican": 11
           },
           "FlagWave": true
         }
@@ -155,26 +149,26 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieProspector": 3,
-            "ZombiePianist": 6,
-            "ZombieChickenWrangler": 8,
-            "ZombieRodeoLegend": 11
+            "pirate": 3,
+            "swashbuckler": 6,
+            "seagull": 8,
+            "pelican": 11
           }
         },
         {
           "Zombies": {
-            "ZombieProspector": 2,
-            "ZombiePianist": 5,
-            "ZombieChickenWrangler": 7,
-            "ZombieRodeoLegend": 11
+            "pirate": 2,
+            "swashbuckler": 5,
+            "seagull": 7,
+            "pelican": 10
           }
         },
         {
           "Zombies": {
-            "ZombieProspector": 4,
-            "ZombiePianist": 8,
-            "ZombieChickenWrangler": 12,
-            "ZombieRodeoLegend": 16
+            "pirate": 4,
+            "swashbuckler": 8,
+            "seagull": 12,
+            "pelican": 16
           },
           "FlagWave": true
         }
@@ -185,26 +179,26 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieKnight": 2,
-            "ZombieWizard": 4,
-            "ZombieFootSoldier": 6,
-            "ZombieImp": 8
+            "cowboy": 2,
+            "prospector": 4,
+            "piano": 6,
+            "poncho": 8
           }
         },
         {
           "Zombies": {
-            "ZombieKnight": 2,
-            "ZombieWizard": 4,
-            "ZombieFootSoldier": 5,
-            "ZombieImp": 7
+            "cowboy": 2,
+            "prospector": 4,
+            "piano": 5,
+            "poncho": 7
           }
         },
         {
           "Zombies": {
-            "ZombieKnight": 3,
-            "ZombieWizard": 6,
-            "ZombieFootSoldier": 9,
-            "ZombieImp": 12
+            "cowboy": 3,
+            "prospector": 6,
+            "piano": 8,
+            "poncho": 11
           },
           "FlagWave": true
         }
@@ -215,26 +209,26 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieKnight": 3,
-            "ZombieWizard": 6,
-            "ZombieFootSoldier": 8,
-            "ZombieImp": 11
+            "cowboy": 3,
+            "prospector": 6,
+            "piano": 8,
+            "poncho": 11
           }
         },
         {
           "Zombies": {
-            "ZombieKnight": 2,
-            "ZombieWizard": 5,
-            "ZombieFootSoldier": 7,
-            "ZombieImp": 11
+            "cowboy": 2,
+            "prospector": 5,
+            "piano": 7,
+            "poncho": 11
           }
         },
         {
           "Zombies": {
-            "ZombieKnight": 4,
-            "ZombieWizard": 8,
-            "ZombieFootSoldier": 12,
-            "ZombieImp": 16
+            "cowboy": 4,
+            "prospector": 8,
+            "piano": 12,
+            "poncho": 15
           },
           "FlagWave": true
         }
@@ -245,26 +239,26 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieJetpack": 2,
-            "ZombieZ7Mech": 4,
-            "ZombieBot": 6,
-            "ZombieGargantuarFuture": 8
+            "dark": 2,
+            "dark_juggler": 4,
+            "dark_wizard": 6,
+            "dark_wizard_veteran": 8
           }
         },
         {
           "Zombies": {
-            "ZombieJetpack": 2,
-            "ZombieZ7Mech": 4,
-            "ZombieBot": 5,
-            "ZombieGargantuarFuture": 7
+            "dark": 2,
+            "dark_juggler": 4,
+            "dark_wizard": 5,
+            "dark_wizard_veteran": 7
           }
         },
         {
           "Zombies": {
-            "ZombieJetpack": 3,
-            "ZombieZ7Mech": 6,
-            "ZombieBot": 9,
-            "ZombieGargantuarFuture": 12
+            "dark": 3,
+            "dark_juggler": 6,
+            "dark_wizard": 9,
+            "dark_wizard_veteran": 12
           },
           "FlagWave": true
         }
@@ -275,26 +269,26 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieJetpack": 3,
-            "ZombieZ7Mech": 6,
-            "ZombieBot": 8,
-            "ZombieGargantuarFuture": 11
+            "dark": 3,
+            "dark_juggler": 6,
+            "dark_wizard": 8,
+            "dark_wizard_veteran": 11
           }
         },
         {
           "Zombies": {
-            "ZombieJetpack": 2,
-            "ZombieZ7Mech": 5,
-            "ZombieBot": 7,
-            "ZombieGargantuarFuture": 11
+            "dark": 2,
+            "dark_juggler": 5,
+            "dark_wizard": 7,
+            "dark_wizard_veteran": 11
           }
         },
         {
           "Zombies": {
-            "ZombieJetpack": 4,
-            "ZombieZ7Mech": 8,
-            "ZombieBot": 12,
-            "ZombieGargantuarFuture": 16
+            "dark": 4,
+            "dark_juggler": 8,
+            "dark_wizard": 12,
+            "dark_wizard_veteran": 16
           },
           "FlagWave": true
         }
@@ -305,26 +299,26 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieWeaselHoarder": 2,
-            "ZombieFrostyRider": 4,
-            "ZombieYetiImp": 6,
-            "ZombieIceTrooper": 8
+            "future": 2,
+            "future_jetpack": 4,
+            "future_jetpack_veteran": 6,
+            "future_jetpack_disco": 8
           }
         },
         {
           "Zombies": {
-            "ZombieWeaselHoarder": 2,
-            "ZombieFrostyRider": 4,
-            "ZombieYetiImp": 5,
-            "ZombieIceTrooper": 7
+            "future": 2,
+            "future_jetpack": 4,
+            "future_jetpack_veteran": 5,
+            "future_jetpack_disco": 7
           }
         },
         {
           "Zombies": {
-            "ZombieWeaselHoarder": 3,
-            "ZombieFrostyRider": 6,
-            "ZombieYetiImp": 9,
-            "ZombieIceTrooper": 12
+            "future": 3,
+            "future_jetpack": 6,
+            "future_jetpack_veteran": 8,
+            "future_jetpack_disco": 11
           },
           "FlagWave": true
         }
@@ -335,26 +329,26 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieWeaselHoarder": 3,
-            "ZombieFrostyRider": 6,
-            "ZombieYetiImp": 8,
-            "ZombieIceTrooper": 11
+            "future": 3,
+            "future_jetpack": 6,
+            "future_jetpack_veteran": 8,
+            "future_jetpack_disco": 11
           }
         },
         {
           "Zombies": {
-            "ZombieWeaselHoarder": 2,
-            "ZombieFrostyRider": 5,
-            "ZombieYetiImp": 7,
-            "ZombieIceTrooper": 11
+            "future": 2,
+            "future_jetpack": 5,
+            "future_jetpack_veteran": 7,
+            "future_jetpack_disco": 11
           }
         },
         {
           "Zombies": {
-            "ZombieWeaselHoarder": 4,
-            "ZombieFrostyRider": 8,
-            "ZombieYetiImp": 12,
-            "ZombieIceTrooper": 16
+            "future": 4,
+            "future_jetpack": 8,
+            "future_jetpack_veteran": 12,
+            "future_jetpack_disco": 16
           },
           "FlagWave": true
         }
@@ -365,26 +359,26 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieExcavator": 2,
-            "ZombieTombRaiser": 4,
-            "ZombieRelicHunter": 6,
-            "ZombieStoneGuard": 8
+            "iceage": 2,
+            "iceage_hunter": 4,
+            "iceage_hunter_veteran": 6,
+            "iceage_dodo": 8
           }
         },
         {
           "Zombies": {
-            "ZombieExcavator": 2,
-            "ZombieTombRaiser": 4,
-            "ZombieRelicHunter": 5,
-            "ZombieStoneGuard": 7
+            "iceage": 2,
+            "iceage_hunter": 4,
+            "iceage_hunter_veteran": 5,
+            "iceage_dodo": 7
           }
         },
         {
           "Zombies": {
-            "ZombieExcavator": 3,
-            "ZombieTombRaiser": 6,
-            "ZombieRelicHunter": 9,
-            "ZombieStoneGuard": 12
+            "iceage": 3,
+            "iceage_hunter": 6,
+            "iceage_hunter_veteran": 9,
+            "iceage_dodo": 11
           },
           "FlagWave": true
         }
@@ -395,26 +389,26 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieExcavator": 3,
-            "ZombieTombRaiser": 6,
-            "ZombieRelicHunter": 8,
-            "ZombieStoneGuard": 11
+            "iceage": 3,
+            "iceage_hunter": 6,
+            "iceage_hunter_veteran": 8,
+            "iceage_dodo": 11
           }
         },
         {
           "Zombies": {
-            "ZombieExcavator": 2,
-            "ZombieTombRaiser": 5,
-            "ZombieRelicHunter": 7,
-            "ZombieStoneGuard": 11
+            "iceage": 2,
+            "iceage_hunter": 5,
+            "iceage_hunter_veteran": 7,
+            "iceage_dodo": 11
           }
         },
         {
           "Zombies": {
-            "ZombieExcavator": 4,
-            "ZombieTombRaiser": 8,
-            "ZombieRelicHunter": 12,
-            "ZombieStoneGuard": 16
+            "iceage": 4,
+            "iceage_hunter": 8,
+            "iceage_hunter_veteran": 12,
+            "iceage_dodo": 16
           },
           "FlagWave": true
         }
@@ -425,26 +419,26 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieBreakdancer": 2,
-            "ZombieGlitter": 4,
-            "ZombieDiscoBoss": 6,
-            "ZombieRollerSkater": 8
+            "bobsled": 2,
+            "bobsled_team": 4,
+            "newspaper_veteran": 6,
+            "modern_balloon": 8
           }
         },
         {
           "Zombies": {
-            "ZombieBreakdancer": 2,
-            "ZombieGlitter": 4,
-            "ZombieDiscoBoss": 5,
-            "ZombieRollerSkater": 7
+            "bobsled": 2,
+            "bobsled_team": 4,
+            "newspaper_veteran": 5,
+            "modern_balloon": 7
           }
         },
         {
           "Zombies": {
-            "ZombieBreakdancer": 3,
-            "ZombieGlitter": 6,
-            "ZombieDiscoBoss": 9,
-            "ZombieRollerSkater": 11
+            "bobsled": 3,
+            "bobsled_team": 6,
+            "newspaper_veteran": 9,
+            "modern_balloon": 11
           },
           "FlagWave": true
         }
@@ -455,26 +449,26 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieBreakdancer": 3,
-            "ZombieGlitter": 6,
-            "ZombieDiscoBoss": 8,
-            "ZombieRollerSkater": 11
+            "bobsled": 3,
+            "bobsled_team": 6,
+            "newspaper_veteran": 8,
+            "modern_balloon": 11
           }
         },
         {
           "Zombies": {
-            "ZombieBreakdancer": 2,
-            "ZombieGlitter": 5,
-            "ZombieDiscoBoss": 7,
-            "ZombieRollerSkater": 11
+            "bobsled": 2,
+            "bobsled_team": 5,
+            "newspaper_veteran": 7,
+            "modern_balloon": 11
           }
         },
         {
           "Zombies": {
-            "ZombieBreakdancer": 4,
-            "ZombieGlitter": 8,
-            "ZombieDiscoBoss": 12,
-            "ZombieRollerSkater": 16
+            "bobsled": 4,
+            "bobsled_team": 8,
+            "newspaper_veteran": 12,
+            "modern_balloon": 16
           },
           "FlagWave": true
         }
@@ -485,26 +479,26 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombiePrimalGargantuar": 2,
-            "ZombieRaptorRider": 4,
-            "ZombiePterodactyl": 6,
-            "ZombieCaveman": 8
+            "kongfu": 2,
+            "kongfu_hammer": 4,
+            "kongfu_torch": 6,
+            "kongfu_bomb": 8
           }
         },
         {
           "Zombies": {
-            "ZombiePrimalGargantuar": 2,
-            "ZombieRaptorRider": 4,
-            "ZombiePterodactyl": 5,
-            "ZombieCaveman": 7
+            "kongfu": 2,
+            "kongfu_hammer": 4,
+            "kongfu_torch": 5,
+            "kongfu_bomb": 7
           }
         },
         {
           "Zombies": {
-            "ZombiePrimalGargantuar": 3,
-            "ZombieRaptorRider": 6,
-            "ZombiePterodactyl": 9,
-            "ZombieCaveman": 12
+            "kongfu": 3,
+            "kongfu_hammer": 6,
+            "kongfu_torch": 9,
+            "kongfu_bomb": 11
           },
           "FlagWave": true
         }
@@ -515,26 +509,26 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombiePrimalGargantuar": 3,
-            "ZombieRaptorRider": 6,
-            "ZombiePterodactyl": 8,
-            "ZombieCaveman": 11
+            "kongfu": 3,
+            "kongfu_hammer": 6,
+            "kongfu_torch": 8,
+            "kongfu_bomb": 11
           }
         },
         {
           "Zombies": {
-            "ZombiePrimalGargantuar": 2,
-            "ZombieRaptorRider": 5,
-            "ZombiePterodactyl": 7,
-            "ZombieCaveman": 11
+            "kongfu": 2,
+            "kongfu_hammer": 5,
+            "kongfu_torch": 7,
+            "kongfu_bomb": 11
           }
         },
         {
           "Zombies": {
-            "ZombiePrimalGargantuar": 4,
-            "ZombieRaptorRider": 8,
-            "ZombiePterodactyl": 12,
-            "ZombieCaveman": 16
+            "kongfu": 4,
+            "kongfu_hammer": 8,
+            "kongfu_torch": 12,
+            "kongfu_bomb": 16
           },
           "FlagWave": true
         }
@@ -545,26 +539,26 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieFisherman": 2,
-            "ZombieSurfer": 4,
-            "ZombieLifeguard": 6,
-            "ZombieOctopusRider": 8
+            "beach": 2,
+            "beach_fem": 4,
+            "beach_snorkel": 6,
+            "beach_surfer": 8
           }
         },
         {
           "Zombies": {
-            "ZombieFisherman": 2,
-            "ZombieSurfer": 4,
-            "ZombieLifeguard": 5,
-            "ZombieOctopusRider": 7
+            "beach": 2,
+            "beach_fem": 4,
+            "beach_snorkel": 5,
+            "beach_surfer": 7
           }
         },
         {
           "Zombies": {
-            "ZombieFisherman": 3,
-            "ZombieSurfer": 6,
-            "ZombieLifeguard": 9,
-            "ZombieOctopusRider": 11
+            "beach": 3,
+            "beach_fem": 6,
+            "beach_snorkel": 9,
+            "beach_surfer": 11
           },
           "FlagWave": true
         }
@@ -575,26 +569,26 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieFisherman": 3,
-            "ZombieSurfer": 6,
-            "ZombieLifeguard": 8,
-            "ZombieOctopusRider": 11
+            "beach": 3,
+            "beach_fem": 6,
+            "beach_snorkel": 8,
+            "beach_surfer": 11
           }
         },
         {
           "Zombies": {
-            "ZombieFisherman": 2,
-            "ZombieSurfer": 5,
-            "ZombieLifeguard": 7,
-            "ZombieOctopusRider": 11
+            "beach": 2,
+            "beach_fem": 5,
+            "beach_snorkel": 7,
+            "beach_surfer": 11
           }
         },
         {
           "Zombies": {
-            "ZombieFisherman": 4,
-            "ZombieSurfer": 8,
-            "ZombieLifeguard": 12,
-            "ZombieOctopusRider": 16
+            "beach": 4,
+            "beach_fem": 8,
+            "beach_snorkel": 12,
+            "beach_surfer": 16
           },
           "FlagWave": true
         }
@@ -605,26 +599,26 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieNewspaper": 2,
-            "ZombieDancing": 4,
-            "ZombieBackupDancer": 6,
-            "ZombieScreenDoor": 8
+            "lostcity": 2,
+            "lostcity_lostpilot": 4,
+            "lostcity_lostpilot_veteran": 6,
+            "lostcity_excavator": 8
           }
         },
         {
           "Zombies": {
-            "ZombieNewspaper": 2,
-            "ZombieDancing": 4,
-            "ZombieBackupDancer": 5,
-            "ZombieScreenDoor": 7
+            "lostcity": 2,
+            "lostcity_lostpilot": 4,
+            "lostcity_lostpilot_veteran": 5,
+            "lostcity_excavator": 7
           }
         },
         {
           "Zombies": {
-            "ZombieNewspaper": 3,
-            "ZombieDancing": 6,
-            "ZombieBackupDancer": 9,
-            "ZombieScreenDoor": 12
+            "lostcity": 3,
+            "lostcity_lostpilot": 6,
+            "lostcity_lostpilot_veteran": 9,
+            "lostcity_excavator": 11
           },
           "FlagWave": true
         }
@@ -635,26 +629,26 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieNewspaper": 3,
-            "ZombieDancing": 6,
-            "ZombieBackupDancer": 8,
-            "ZombieScreenDoor": 11
+            "lostcity": 3,
+            "lostcity_lostpilot": 6,
+            "lostcity_lostpilot_veteran": 8,
+            "lostcity_excavator": 11
           }
         },
         {
           "Zombies": {
-            "ZombieNewspaper": 2,
-            "ZombieDancing": 5,
-            "ZombieBackupDancer": 7,
-            "ZombieScreenDoor": 11
+            "lostcity": 2,
+            "lostcity_lostpilot": 5,
+            "lostcity_lostpilot_veteran": 7,
+            "lostcity_excavator": 11
           }
         },
         {
           "Zombies": {
-            "ZombieNewspaper": 4,
-            "ZombieDancing": 8,
-            "ZombieBackupDancer": 12,
-            "ZombieScreenDoor": 16
+            "lostcity": 4,
+            "lostcity_lostpilot": 8,
+            "lostcity_lostpilot_veteran": 12,
+            "lostcity_excavator": 16
           },
           "FlagWave": true
         }
@@ -665,26 +659,26 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieDrone": 2,
-            "ZombieHoverboard": 4,
-            "ZombieCloudRider": 6,
-            "ZombieStormTrooper": 8
+            "eighties": 2,
+            "eighties_punk": 4,
+            "eighties_punk_veteran": 6,
+            "eighties_skunk": 8
           }
         },
         {
           "Zombies": {
-            "ZombieDrone": 2,
-            "ZombieHoverboard": 4,
-            "ZombieCloudRider": 5,
-            "ZombieStormTrooper": 7
+            "eighties": 2,
+            "eighties_punk": 4,
+            "eighties_punk_veteran": 5,
+            "eighties_skunk": 7
           }
         },
         {
           "Zombies": {
-            "ZombieDrone": 3,
-            "ZombieHoverboard": 6,
-            "ZombieCloudRider": 9,
-            "ZombieStormTrooper": 12
+            "eighties": 3,
+            "eighties_punk": 6,
+            "eighties_punk_veteran": 9,
+            "eighties_skunk": 11
           },
           "FlagWave": true
         }
@@ -695,26 +689,146 @@
       "Waves": [
         {
           "Zombies": {
-            "ZombieDrone": 3,
-            "ZombieHoverboard": 6,
-            "ZombieCloudRider": 8,
-            "ZombieStormTrooper": 11
+            "eighties": 3,
+            "eighties_punk": 6,
+            "eighties_punk_veteran": 8,
+            "eighties_skunk": 11
           }
         },
         {
           "Zombies": {
-            "ZombieDrone": 2,
-            "ZombieHoverboard": 5,
-            "ZombieCloudRider": 7,
-            "ZombieStormTrooper": 11
+            "eighties": 2,
+            "eighties_punk": 5,
+            "eighties_punk_veteran": 7,
+            "eighties_skunk": 11
           }
         },
         {
           "Zombies": {
-            "ZombieDrone": 4,
-            "ZombieHoverboard": 8,
-            "ZombieCloudRider": 12,
-            "ZombieStormTrooper": 16
+            "eighties": 4,
+            "eighties_punk": 8,
+            "eighties_punk_veteran": 12,
+            "eighties_skunk": 16
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "13_1",
+      "Waves": [
+        {
+          "Zombies": {
+            "dino": 2,
+            "dino_bully": 4,
+            "dino_bully_veteran": 6,
+            "zombossmech_dino": 8
+          }
+        },
+        {
+          "Zombies": {
+            "dino": 2,
+            "dino_bully": 4,
+            "dino_bully_veteran": 5,
+            "zombossmech_dino": 7
+          }
+        },
+        {
+          "Zombies": {
+            "dino": 3,
+            "dino_bully": 6,
+            "dino_bully_veteran": 9,
+            "zombossmech_dino": 11
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "13_2",
+      "Waves": [
+        {
+          "Zombies": {
+            "dino": 3,
+            "dino_bully": 6,
+            "dino_bully_veteran": 8,
+            "zombossmech_dino": 11
+          }
+        },
+        {
+          "Zombies": {
+            "dino": 2,
+            "dino_bully": 5,
+            "dino_bully_veteran": 7,
+            "zombossmech_dino": 11
+          }
+        },
+        {
+          "Zombies": {
+            "dino": 4,
+            "dino_bully": 8,
+            "dino_bully_veteran": 12,
+            "zombossmech_dino": 16
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "14_1",
+      "Waves": [
+        {
+          "Zombies": {
+            "sky": 2,
+            "sky_battleplane": 4,
+            "sky_dropship": 6,
+            "sky_twin_upper": 8
+          }
+        },
+        {
+          "Zombies": {
+            "sky": 2,
+            "sky_battleplane": 4,
+            "sky_dropship": 5,
+            "sky_twin_upper": 7
+          }
+        },
+        {
+          "Zombies": {
+            "sky": 3,
+            "sky_battleplane": 6,
+            "sky_dropship": 9,
+            "sky_twin_upper": 11
+          },
+          "FlagWave": true
+        }
+      ]
+    },
+    {
+      "ID": "14_2",
+      "Waves": [
+        {
+          "Zombies": {
+            "sky": 3,
+            "sky_battleplane": 6,
+            "sky_dropship": 8,
+            "sky_twin_upper": 11
+          }
+        },
+        {
+          "Zombies": {
+            "sky": 2,
+            "sky_battleplane": 5,
+            "sky_dropship": 7,
+            "sky_twin_upper": 10
+          }
+        },
+        {
+          "Zombies": {
+            "sky": 4,
+            "sky_battleplane": 8,
+            "sky_dropship": 12,
+            "sky_twin_upper": 16
           },
           "FlagWave": true
         }

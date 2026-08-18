@@ -1,53 +1,164 @@
-# Zombie rebalance changes
+# Zombie rebalance changes (real roster + real stats)
 
-_strength = 0.6, 48 zombies across 12 worlds_
+_strength = 0.6. 159 zombies -- the REAL roster and REAL Toughness/EatDPS/WalkSPS/WavePointCost values from the uploaded ZombieFeatures.json + ZombieProps.json, restricted to the 16 core (non-holiday) worlds and base forms (armor/flag/imp/gargantuar variants excluded). Rebalances WavePointCost -- the real field that controls how many of a zombie can appear per wave -- toward the roster's average threat-per-point, the same normalization approach used for plant SunCost._
 
-| Zombie | Old Toughness | New Toughness |
-|---|---|---|
-| ZombieBasic | 200 | 800 |
-| ZombieConehead | 560 | 950 |
-| ZombieBuckethead | 1300 | 1250 |
-| ZombieFlag | 200 | 650 |
-| ZombieSnorkel | 200 | 800 |
-| ZombiePole | 500 | 200 |
-| ZombieBarrelRoller | 1450 | 1550 |
-| ZombieSwashbuckler | 660 | 1100 |
-| ZombieProspector | 320 | 850 |
-| ZombiePianist | 760 | 1150 |
-| ZombieChickenWrangler | 280 | 400 |
-| ZombieKnight | 1750 | 1650 |
-| ZombieWizard | 380 | 900 |
-| ZombieFootSoldier | 860 | 1200 |
-| ZombieImp | 320 | 400 |
-| ZombieJetpack | 360 | 350 |
-| ZombieZ7Mech | 1900 | 1750 |
-| ZombieBot | 960 | 1250 |
-| ZombieGargantuarFuture | 1900 | 1750 |
-| ZombieWeaselHoarder | 500 | 950 |
-| ZombieFrostyRider | 400 | 350 |
-| ZombieYetiImp | 400 | 350 |
-| ZombieIceTrooper | 1060 | 1250 |
-| ZombieExcavator | 2200 | 1850 |
-| ZombieTombRaiser | 1160 | 1300 |
-| ZombieRelicHunter | 560 | 950 |
-| ZombieStoneGuard | 2200 | 1850 |
-| ZombieBreakdancer | 480 | 300 |
-| ZombieGlitter | 620 | 1000 |
-| ZombieDiscoBoss | 2350 | 1900 |
-| ZombieRollerSkater | 480 | 300 |
-| ZombiePrimalGargantuar | 2500 | 1950 |
-| ZombieRaptorRider | 520 | 300 |
-| ZombiePterodactyl | 520 | 300 |
-| ZombieCaveman | 680 | 1000 |
-| ZombieFisherman | 740 | 1000 |
-| ZombieSurfer | 560 | 250 |
-| ZombieLifeguard | 1460 | 1450 |
-| ZombieOctopusRider | 2650 | 2050 |
-| ZombieNewspaper | 1560 | 1450 |
-| ZombieDancing | 600 | 250 |
-| ZombieBackupDancer | 800 | 1050 |
-| ZombieScreenDoor | 2800 | 2100 |
-| ZombieDrone | 640 | 250 |
-| ZombieHoverboard | 640 | 250 |
-| ZombieCloudRider | 1660 | 1500 |
-| ZombieStormTrooper | 2950 | 2150 |
+| Zombie | World | Old WavePointCost | New WavePointCost |
+|---|---|---|---|
+| tutorial | frontyard | 100 | 75 |
+| duckytube | frontyard | 100 | 75 |
+| bobsled | modern | 100 | 75 |
+| bobsled_team | modern | 200 | 125 |
+| newspaper_veteran | modern | 1200 | 525 |
+| modern_balloon | modern | 400 | 225 |
+| modern_allstar | modern | 1500 | 625 |
+| modern_superfanimp | modern | 200 | 100 |
+| zomboni | modern | 400 | 225 |
+| catapult | modern | 300 | 200 |
+| zombossmech_modern1 | modern | 100 | 75 |
+| mummy | egypt | 100 | 75 |
+| ra | egypt | 100 | 75 |
+| camel_segment | egypt | 200 | 100 |
+| camel_onehump | egypt | 600 | 250 |
+| camel_segment_touch | egypt | 100 | 50 |
+| camel_onehump_touch | egypt | 300 | 150 |
+| explorer | egypt | 250 | 125 |
+| explorer_veteran | egypt | 700 | 350 |
+| tomb_raiser | egypt | 300 | 150 |
+| pharaoh_inner | egypt | 150 | 125 |
+| pharaoh_weak | egypt | 450 | 225 |
+| pharaoh | egypt | 450 | 225 |
+| zombossmech_egypt | egypt | 100 | 75 |
+| zombossmech_egypt2 | egypt | 100 | 75 |
+| pirate | pirate | 100 | 75 |
+| swashbuckler | pirate | 150 | 75 |
+| seagull | pirate | 200 | 125 |
+| pelican | pirate | 350 | 225 |
+| barrelroller | pirate | 500 | 225 |
+| pirate_barrel | pirate | 100 | 75 |
+| cannon | pirate | 700 | 300 |
+| pirate_captain | pirate | 500 | 225 |
+| pirate_captain_parrot | pirate | 400 | 325 |
+| zombossmech_pirate | pirate | 100 | 75 |
+| zombossmech_pirate2 | pirate | 100 | 75 |
+| cowboy | cowboy | 100 | 75 |
+| prospector | cowboy | 200 | 100 |
+| piano | cowboy | 450 | 300 |
+| poncho | cowboy | 300 | 150 |
+| poncho_no_plate | cowboy | 150 | 75 |
+| poncho_plate | cowboy | 400 | 175 |
+| chicken_farmer | cowboy | 350 | 175 |
+| chicken | cowboy | 10 | 250 |
+| chicken_pumpkin | market | 10 | 250 |
+| west_bull | cowboy | 600 | 275 |
+| west_bull_veteran | cowboy | 1000 | 450 |
+| west_bullrider | cowboy | 100 | 75 |
+| zombossmech_cowboy | cowboy | 100 | 75 |
+| zombossmech_cowboy2 | cowboy | 100 | 75 |
+| future | future | 100 | 75 |
+| future_jetpack | future | 150 | 100 |
+| future_jetpack_veteran | future | 450 | 275 |
+| future_jetpack_disco | future | 150 | 100 |
+| future_protector | future | 500 | 225 |
+| future_protector_shield | future | 100 | 50 |
+| future_infinut_shield | future | 100 | 175 |
+| mech_cone | future | 650 | 300 |
+| football_mech | future | 1000 | 450 |
+| disco_mech | future | 800 | 375 |
+| zombossmech_future | future | 100 | 75 |
+| zombossmech_future2 | future | 100 | 75 |
+| dark | dark | 100 | 75 |
+| dark_juggler | dark | 450 | 200 |
+| dark_wizard | dark | 800 | 350 |
+| dark_wizard_veteran | dark | 1200 | 500 |
+| dark_king | dark | 750 | 325 |
+| dark_king_veteran | dark | 1000 | 450 |
+| dark_imp_dragon | dark | 150 | 100 |
+| zombossmech_dark | dark | 100 | 50 |
+| zombossmech_dark2 | dark | 100 | 75 |
+| beach | beach | 100 | 75 |
+| beach_fem | beach | 100 | 75 |
+| beach_snorkel | beach | 200 | 100 |
+| beach_surfer | beach | 700 | 300 |
+| beach_surfer_veteran | beach | 1400 | 575 |
+| beach_octopus | beach | 900 | 400 |
+| beach_fisherman | beach | 700 | 325 |
+| zombossmech_beach | water | 100 | 75 |
+| zombossmech_beach2 | water | 100 | 75 |
+| iceage | ice | 100 | 75 |
+| iceage_hunter | ice | 500 | 225 |
+| iceage_hunter_veteran | ice | 700 | 325 |
+| iceage_dodo | ice | 600 | 275 |
+| iceage_troglobite | ice | 600 | 275 |
+| iceage_troglobite_1block | ice | 400 | 200 |
+| iceage_troglobite_2block | ice | 400 | 200 |
+| iceage_troglobite_veteran | ice | 900 | 400 |
+| iceage_weaselhoarder | ice | 350 | 175 |
+| iceage_weasel | ice | 10 | 175 |
+| zombossmech_iceage | ice | 100 | 75 |
+| zombossmech_iceage2 | ice | 100 | 75 |
+| lostcity | lostcity | 100 | 75 |
+| lostcity_lostpilot | lostcity | 150 | 100 |
+| lostcity_lostpilot_veteran | lostcity | 250 | 125 |
+| lostcity_excavator | lostcity | 300 | 175 |
+| lostcity_jane | lostcity | 200 | 125 |
+| lostcity_bug | lostcity | 350 | 175 |
+| lostcity_relichunter | lostcity | 550 | 250 |
+| lostcity_impporter | lostcity | 450 | 200 |
+| lostcity_crystalskull | lostcity | 500 | 225 |
+| zombossmech_lostcity | lostcity | 100 | 75 |
+| zombossmech_lostcity2 | lostcity | 100 | 75 |
+| kongfu | kongfu | 100 | 75 |
+| kongfu_hammer | kongfu | 200 | 100 |
+| kongfu_torch | kongfu | 250 | 125 |
+| kongfu_bomb | kongfu | 400 | 200 |
+| kongfu_gong | kongfu | 350 | 175 |
+| kongfu_drink | kongfu | 400 | 200 |
+| kongfu_chi | kongfu | 250 | 125 |
+| monk | kongfu | 100 | 75 |
+| monk_blade | kongfu | 150 | 100 |
+| monk_nunchaku | kongfu | 200 | 125 |
+| monk_torch | kongfu | 250 | 150 |
+| monk_drink | kongfu | 500 | 225 |
+| monk_drink_veteran | kongfu | 700 | 325 |
+| abbot | kongfu | 100 | 75 |
+| abbot_torch | kongfu | 350 | 175 |
+| abbot_fan | kongfu | 300 | 150 |
+| abbot_3section_staff | kongfu | 400 | 200 |
+| abbot_chi | kongfu | 700 | 325 |
+| kongfu_bronze_statue | kongfu | 2500 | 1100 |
+| kongfu_bronze_strong | kongfu | 1500 | 700 |
+| kongfu_bronze_hook | kongfu | 1500 | 700 |
+| kongfu_bronze_chi | kongfu | 1500 | 675 |
+| kongfu_boss_explode | kongfu | 100 | 75 |
+| kongfu_boss_blade | kongfu | 100 | 75 |
+| kongfu_boss_chi | kongfu | 100 | 75 |
+| eighties | eighties | 100 | 75 |
+| eighties_punk | eighties | 300 | 150 |
+| eighties_punk_veteran | eighties | 500 | 225 |
+| eighties_skunk | eighties | 10 | 25 |
+| eighties_glitter | eighties | 300 | 150 |
+| eighties_mc | eighties | 350 | 175 |
+| eighties_breakdancer | eighties | 300 | 150 |
+| eighties_arcade | eighties | 600 | 275 |
+| eighties_8bit | eighties | 100 | 75 |
+| eighties_boombox | eighties | 300 | 150 |
+| zombossmech_eighties | eighties | 100 | 75 |
+| zombossmech_eighties2 | eighties | 100 | 75 |
+| dino | dino | 100 | 75 |
+| dino_bully | dino | 450 | 225 |
+| dino_bully_veteran | dino | 1000 | 450 |
+| zombossmech_dino | dino | 100 | 75 |
+| zombossmech_dino2 | dino | 100 | 75 |
+| sky | sky | 100 | 75 |
+| sky_battleplane | sky | 700 | 325 |
+| sky_dropship | sky | 100 | 50 |
+| sky_twin_upper | sky | 900 | 450 |
+| sky_twin_lower | sky | 900 | 450 |
+| sky_twin | sky | 1200 | 575 |
+| sky_airraid_twin | sky | 1500 | 700 |
+| sky_electric | sky | 300 | 150 |
+| sky_arbiterx | sky | 1200 | 550 |
+| sky_airraid_arbiterx | sky | 2400 | 1100 |
+| sky_dronemaker | sky | 1400 | 600 |
+| sky_drone | sky | 2000 | 1025 |
+| sky_gargantuar_armor2_thrower | sky | 1500 | 675 |

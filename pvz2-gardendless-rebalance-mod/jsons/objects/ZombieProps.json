@@ -2,434 +2,1433 @@
   "objects": [
     {
       "aliases": [
-        "ZombieBasic"
+        "tutorial"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 800
+        "WavePointCost": 75
       }
     },
     {
       "aliases": [
-        "ZombieConehead"
+        "duckytube"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 950
+        "WavePointCost": 75
       }
     },
     {
       "aliases": [
-        "ZombieBuckethead"
+        "bobsled"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 1250
+        "WavePointCost": 75
       }
     },
     {
       "aliases": [
-        "ZombieFlag"
+        "bobsled_team"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 650
+        "WavePointCost": 125
       }
     },
     {
       "aliases": [
-        "ZombieSnorkel"
+        "newspaper_veteran"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 800
+        "WavePointCost": 525
       }
     },
     {
       "aliases": [
-        "ZombiePole"
+        "modern_balloon"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 200
+        "WavePointCost": 225
       }
     },
     {
       "aliases": [
-        "ZombieBarrelRoller"
+        "modern_allstar"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 1550
+        "WavePointCost": 625
       }
     },
     {
       "aliases": [
-        "ZombieSwashbuckler"
+        "modern_superfanimp"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 1100
+        "WavePointCost": 100
       }
     },
     {
       "aliases": [
-        "ZombieProspector"
+        "zomboni"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 850
+        "WavePointCost": 225
       }
     },
     {
       "aliases": [
-        "ZombiePianist"
+        "catapult"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 1150
+        "WavePointCost": 200
       }
     },
     {
       "aliases": [
-        "ZombieChickenWrangler"
+        "zombossmech_modern1"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 400
+        "WavePointCost": 75
       }
     },
     {
       "aliases": [
-        "ZombieRodeoLegend"
+        "mummy"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 1600
+        "WavePointCost": 75
       }
     },
     {
       "aliases": [
-        "ZombieKnight"
+        "ra"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 1650
+        "WavePointCost": 75
       }
     },
     {
       "aliases": [
-        "ZombieWizard"
+        "camel_segment"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 900
+        "WavePointCost": 100
       }
     },
     {
       "aliases": [
-        "ZombieFootSoldier"
+        "camel_onehump"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 1200
+        "WavePointCost": 250
       }
     },
     {
       "aliases": [
-        "ZombieImp"
+        "camel_segment_touch"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 400
+        "WavePointCost": 50
       }
     },
     {
       "aliases": [
-        "ZombieJetpack"
+        "camel_onehump_touch"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 350
+        "WavePointCost": 150
       }
     },
     {
       "aliases": [
-        "ZombieZ7Mech"
+        "explorer"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 1750
+        "WavePointCost": 125
       }
     },
     {
       "aliases": [
-        "ZombieBot"
+        "explorer_veteran"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 1250
+        "WavePointCost": 350
       }
     },
     {
       "aliases": [
-        "ZombieGargantuarFuture"
+        "tomb_raiser"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 1750
+        "WavePointCost": 150
       }
     },
     {
       "aliases": [
-        "ZombieWeaselHoarder"
+        "pharaoh_inner"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 950
+        "WavePointCost": 125
       }
     },
     {
       "aliases": [
-        "ZombieFrostyRider"
+        "pharaoh_weak"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 350
+        "WavePointCost": 225
       }
     },
     {
       "aliases": [
-        "ZombieYetiImp"
+        "pharaoh"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 350
+        "WavePointCost": 225
       }
     },
     {
       "aliases": [
-        "ZombieIceTrooper"
+        "zombossmech_egypt"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 1250
+        "WavePointCost": 75
       }
     },
     {
       "aliases": [
-        "ZombieExcavator"
+        "zombossmech_egypt2"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 1850
+        "WavePointCost": 75
       }
     },
     {
       "aliases": [
-        "ZombieTombRaiser"
+        "pirate"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 1300
+        "WavePointCost": 75
       }
     },
     {
       "aliases": [
-        "ZombieRelicHunter"
+        "swashbuckler"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 950
+        "WavePointCost": 75
       }
     },
     {
       "aliases": [
-        "ZombieStoneGuard"
+        "seagull"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 1850
+        "WavePointCost": 125
       }
     },
     {
       "aliases": [
-        "ZombieBreakdancer"
+        "pelican"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 300
+        "WavePointCost": 225
       }
     },
     {
       "aliases": [
-        "ZombieGlitter"
+        "barrelroller"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 1000
+        "WavePointCost": 225
       }
     },
     {
       "aliases": [
-        "ZombieDiscoBoss"
+        "pirate_barrel"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 1900
+        "WavePointCost": 75
       }
     },
     {
       "aliases": [
-        "ZombieRollerSkater"
+        "cannon"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 300
+        "WavePointCost": 300
       }
     },
     {
       "aliases": [
-        "ZombiePrimalGargantuar"
+        "pirate_captain"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 1950
+        "WavePointCost": 225
       }
     },
     {
       "aliases": [
-        "ZombieRaptorRider"
+        "pirate_captain_parrot"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 300
+        "WavePointCost": 325
       }
     },
     {
       "aliases": [
-        "ZombiePterodactyl"
+        "zombossmech_pirate"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 300
+        "WavePointCost": 75
       }
     },
     {
       "aliases": [
-        "ZombieCaveman"
+        "zombossmech_pirate2"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 1000
+        "WavePointCost": 75
       }
     },
     {
       "aliases": [
-        "ZombieFisherman"
+        "cowboy"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 1000
+        "WavePointCost": 75
       }
     },
     {
       "aliases": [
-        "ZombieSurfer"
+        "prospector"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 250
+        "WavePointCost": 100
       }
     },
     {
       "aliases": [
-        "ZombieLifeguard"
+        "piano"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 1450
+        "WavePointCost": 300
       }
     },
     {
       "aliases": [
-        "ZombieOctopusRider"
+        "poncho"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 2050
+        "WavePointCost": 150
       }
     },
     {
       "aliases": [
-        "ZombieNewspaper"
+        "poncho_no_plate"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 1450
+        "WavePointCost": 75
       }
     },
     {
       "aliases": [
-        "ZombieDancing"
+        "poncho_plate"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 250
+        "WavePointCost": 175
       }
     },
     {
       "aliases": [
-        "ZombieBackupDancer"
+        "chicken_farmer"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 1050
+        "WavePointCost": 175
       }
     },
     {
       "aliases": [
-        "ZombieScreenDoor"
+        "chicken"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 2100
+        "WavePointCost": 250
       }
     },
     {
       "aliases": [
-        "ZombieDrone"
+        "chicken_pumpkin"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 250
+        "WavePointCost": 250
       }
     },
     {
       "aliases": [
-        "ZombieHoverboard"
+        "west_bull"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 250
+        "WavePointCost": 275
       }
     },
     {
       "aliases": [
-        "ZombieCloudRider"
+        "west_bull_veteran"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 1500
+        "WavePointCost": 450
       }
     },
     {
       "aliases": [
-        "ZombieStormTrooper"
+        "west_bullrider"
       ],
-      "objclass": "Zombie",
+      "objclass": "ZombieProperties",
       "objdata": {
-        "Toughness": 2150
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "zombossmech_cowboy"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "zombossmech_cowboy2"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "future"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "future_jetpack"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 100
+      }
+    },
+    {
+      "aliases": [
+        "future_jetpack_veteran"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 275
+      }
+    },
+    {
+      "aliases": [
+        "future_jetpack_disco"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 100
+      }
+    },
+    {
+      "aliases": [
+        "future_protector"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 225
+      }
+    },
+    {
+      "aliases": [
+        "future_protector_shield"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 50
+      }
+    },
+    {
+      "aliases": [
+        "future_infinut_shield"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 175
+      }
+    },
+    {
+      "aliases": [
+        "modern_moonflower_shield"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 100
+      }
+    },
+    {
+      "aliases": [
+        "mech_cone"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 300
+      }
+    },
+    {
+      "aliases": [
+        "football_mech"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 450
+      }
+    },
+    {
+      "aliases": [
+        "disco_mech"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 375
+      }
+    },
+    {
+      "aliases": [
+        "zombossmech_future"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "zombossmech_future2"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "dark"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "dark_juggler"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 200
+      }
+    },
+    {
+      "aliases": [
+        "dark_wizard"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 350
+      }
+    },
+    {
+      "aliases": [
+        "dark_wizard_veteran"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 500
+      }
+    },
+    {
+      "aliases": [
+        "dark_king"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 325
+      }
+    },
+    {
+      "aliases": [
+        "dark_king_veteran"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 450
+      }
+    },
+    {
+      "aliases": [
+        "dark_imp_dragon"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 100
+      }
+    },
+    {
+      "aliases": [
+        "zombossmech_dark"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 50
+      }
+    },
+    {
+      "aliases": [
+        "zombossmech_dark2"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "beach"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "beach_fem"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "beach_snorkel"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 100
+      }
+    },
+    {
+      "aliases": [
+        "beach_surfer"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 300
+      }
+    },
+    {
+      "aliases": [
+        "beach_surfer_veteran"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 575
+      }
+    },
+    {
+      "aliases": [
+        "beach_octopus"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 400
+      }
+    },
+    {
+      "aliases": [
+        "beach_fisherman"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 325
+      }
+    },
+    {
+      "aliases": [
+        "zombossmech_beach"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "zombossmech_beach2"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "iceage"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "iceage_hunter"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 225
+      }
+    },
+    {
+      "aliases": [
+        "iceage_hunter_veteran"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 325
+      }
+    },
+    {
+      "aliases": [
+        "iceage_dodo"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 275
+      }
+    },
+    {
+      "aliases": [
+        "iceage_troglobite"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 275
+      }
+    },
+    {
+      "aliases": [
+        "iceage_troglobite_1block"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 200
+      }
+    },
+    {
+      "aliases": [
+        "iceage_troglobite_2block"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 200
+      }
+    },
+    {
+      "aliases": [
+        "iceage_troglobite_veteran"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 400
+      }
+    },
+    {
+      "aliases": [
+        "iceage_weaselhoarder"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 175
+      }
+    },
+    {
+      "aliases": [
+        "iceage_weasel"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 175
+      }
+    },
+    {
+      "aliases": [
+        "zombossmech_iceage"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "zombossmech_iceage2"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "lostcity"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "lostcity_lostpilot"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 100
+      }
+    },
+    {
+      "aliases": [
+        "lostcity_lostpilot_veteran"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 125
+      }
+    },
+    {
+      "aliases": [
+        "lostcity_excavator"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 175
+      }
+    },
+    {
+      "aliases": [
+        "lostcity_jane"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 125
+      }
+    },
+    {
+      "aliases": [
+        "lostcity_bug"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 175
+      }
+    },
+    {
+      "aliases": [
+        "lostcity_relichunter"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 250
+      }
+    },
+    {
+      "aliases": [
+        "lostcity_impporter"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 200
+      }
+    },
+    {
+      "aliases": [
+        "lostcity_crystalskull"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 225
+      }
+    },
+    {
+      "aliases": [
+        "zombossmech_lostcity"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "zombossmech_lostcity2"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "kongfu"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "kongfu_hammer"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 100
+      }
+    },
+    {
+      "aliases": [
+        "kongfu_torch"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 125
+      }
+    },
+    {
+      "aliases": [
+        "kongfu_bomb"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 200
+      }
+    },
+    {
+      "aliases": [
+        "kongfu_gong"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 175
+      }
+    },
+    {
+      "aliases": [
+        "kongfu_drink"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 200
+      }
+    },
+    {
+      "aliases": [
+        "kongfu_chi"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 125
+      }
+    },
+    {
+      "aliases": [
+        "monk"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "monk_blade"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 100
+      }
+    },
+    {
+      "aliases": [
+        "monk_nunchaku"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 125
+      }
+    },
+    {
+      "aliases": [
+        "monk_torch"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 150
+      }
+    },
+    {
+      "aliases": [
+        "monk_drink"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 225
+      }
+    },
+    {
+      "aliases": [
+        "monk_drink_veteran"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 325
+      }
+    },
+    {
+      "aliases": [
+        "abbot"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "abbot_torch"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 175
+      }
+    },
+    {
+      "aliases": [
+        "abbot_fan"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 150
+      }
+    },
+    {
+      "aliases": [
+        "abbot_3section_staff"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 200
+      }
+    },
+    {
+      "aliases": [
+        "abbot_chi"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 325
+      }
+    },
+    {
+      "aliases": [
+        "kongfu_bronze_statue"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 1100
+      }
+    },
+    {
+      "aliases": [
+        "kongfu_bronze_strong"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 700
+      }
+    },
+    {
+      "aliases": [
+        "kongfu_bronze_hook"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 700
+      }
+    },
+    {
+      "aliases": [
+        "kongfu_bronze_chi"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 675
+      }
+    },
+    {
+      "aliases": [
+        "kongfu_boss_explode"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "kongfu_boss_blade"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "kongfu_boss_chi"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "eighties"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "eighties_punk"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 150
+      }
+    },
+    {
+      "aliases": [
+        "eighties_punk_veteran"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 225
+      }
+    },
+    {
+      "aliases": [
+        "eighties_skunk"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 25
+      }
+    },
+    {
+      "aliases": [
+        "eighties_glitter"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 150
+      }
+    },
+    {
+      "aliases": [
+        "eighties_mc"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 175
+      }
+    },
+    {
+      "aliases": [
+        "eighties_breakdancer"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 150
+      }
+    },
+    {
+      "aliases": [
+        "eighties_arcade"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 275
+      }
+    },
+    {
+      "aliases": [
+        "eighties_8bit"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "eighties_boombox"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 150
+      }
+    },
+    {
+      "aliases": [
+        "zombossmech_eighties"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "zombossmech_eighties2"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "dino"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "dino_bully"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 225
+      }
+    },
+    {
+      "aliases": [
+        "dino_bully_veteran"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 450
+      }
+    },
+    {
+      "aliases": [
+        "zombossmech_dino"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "zombossmech_dino2"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "sky"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 75
+      }
+    },
+    {
+      "aliases": [
+        "sky_battleplane"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 325
+      }
+    },
+    {
+      "aliases": [
+        "sky_dropship"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 50
+      }
+    },
+    {
+      "aliases": [
+        "sky_twin_upper"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 450
+      }
+    },
+    {
+      "aliases": [
+        "sky_twin_lower"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 450
+      }
+    },
+    {
+      "aliases": [
+        "sky_twin"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 575
+      }
+    },
+    {
+      "aliases": [
+        "sky_airraid_twin"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 700
+      }
+    },
+    {
+      "aliases": [
+        "sky_electric"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 150
+      }
+    },
+    {
+      "aliases": [
+        "sky_arbiterx"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 550
+      }
+    },
+    {
+      "aliases": [
+        "sky_airraid_arbiterx"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 1100
+      }
+    },
+    {
+      "aliases": [
+        "sky_dronemaker"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 600
+      }
+    },
+    {
+      "aliases": [
+        "sky_drone"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 1025
+      }
+    },
+    {
+      "aliases": [
+        "sky_gargantuar_armor2_thrower"
+      ],
+      "objclass": "ZombieProperties",
+      "objdata": {
+        "WavePointCost": 675
       }
     }
   ]
