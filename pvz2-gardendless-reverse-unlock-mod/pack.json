@@ -1,8 +1,8 @@
 {
   "name": "Reverse Unlock Order",
   "id": "reverse-unlock-order",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "priority": 100,
-  "description": "Reverses the order in which plants are unlocked in PvZ2 Gardendless: the plant you'd normally unlock last is now unlocked first, and vice versa.",
+  "description": "Reverses the full Almanac plant order in PvZ2 Gardendless (Main Adventure + Epic Quest + Ticket Shop + Gem Shop, excluding Zen Garden Mint): the plant you'd normally unlock last is now unlocked first, and vice versa.",
   "author": "tutu.heleninha"
 }
