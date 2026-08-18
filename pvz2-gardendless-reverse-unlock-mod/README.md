@@ -23,6 +23,38 @@ See `jsons/features/almanac-order-changes.md`,
 `jsons/objects/shop-order-changes.md`, and
 `jsons/worldmap/worldmap-changes.md` for exactly what changed in each file.
 
+## v7 → v8: fixed "nothing changes at all" even with the experimental flag on
+
+Reported: after enabling `worldMapJson` in Experimental settings and
+installing, none of this mod's changes took effect — not just the world
+map, but seed-chooser order and Shop costs too. That points at the whole
+pack failing to load, not a world-map-specific problem. The likely cause:
+`pack.json` had `"gpNextVersion": ">=1.0.0"` and
+`"requiredGpNextFeatures": ["experimental.worldMapJson"]` — both copied
+from the docs' generic example, neither individually verified against a
+real install. If GP-Next treats either as a hard gate (version mismatch,
+unrecognized feature string) it can reject the entire pack silently,
+which matches "nothing changes" with no error shown. **Both are removed
+in this version.**
+
+### If it's still not working after this fix
+
+That would mean the pack loads but a Shop/Almanac-check is still worth
+doing to narrow it down further:
+1. Confirm the pack shows up as *enabled* in the in-game Patcher/GP-Next
+   mod list (not just present in the folder).
+2. Check if `SEEDCHOOSERDEFAULTORDER` took effect (seed-chooser screen
+   plant order changed) — if yes but the world map didn't, the problem is
+   specific to `gpn-worldmap.json`'s content (most likely: this mod's
+   world codenames/level IDs beyond the one confirmed `egypt` example
+   don't match your install's real IDs, so those `worlds` entries get
+   silently skipped).
+3. If even `SEEDCHOOSERDEFAULTORDER` didn't take effect, the pack likely
+   still isn't loading at all — check the exact install path
+   (`gp-next/packs/<name>/pack.json` at the top level of that folder, not
+   nested deeper) and whether GP-Next logs an error anywhere (a log file,
+   console output, or in-game notification) that could be shared.
+
 ## 🛑 Back up your save before installing this
 
 Gardendless's own docs say **"Users should back up saves before
