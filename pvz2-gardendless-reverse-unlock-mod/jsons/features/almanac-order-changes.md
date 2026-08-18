@@ -1,6 +1,8 @@
-# Seed-chooser order reversal (SEEDCHOOSERDEFAULTORDER)
+# Seed-chooser order reversal (SEEDCHOOSERDEFAULTORDER + BASEUNLOCKLIST)
 
-_166 plants — the REAL SEEDCHOOSERDEFAULTORDER array from your uploaded PlantFeatures.json, with the 14 "mint" entries removed and the rest reversed. BASEUNLOCKLIST (confirmed real: just ["peashooter","sunflower","wallnut","potatomine"]) is intentionally not touched — see README._
+_166 plants — the REAL SEEDCHOOSERDEFAULTORDER array from your uploaded PlantFeatures.json, with the 14 "mint" entries removed and the rest reversed._
+
+_BASEUNLOCKLIST (confirmed real: `["peashooter","sunflower","wallnut","potatomine"]`) is now ALSO reversed — set to the first 4 entries of the reversed order (`darkmatterdragonfruit`, `slingpea`, `cranjelly`, `umbrellaleaf`), since those 4 codenames are confirmed to be literally the first 4 entries of the real order. This is what a fresh save now starts with instead. The original starters (peashooter/sunflower/wallnut/potatomine) land at the very end of the reversed order instead, exactly where the mod's other reversed content lands its "first" items._
 
 | # | Original order | Reversed order |
 |---|---|---|

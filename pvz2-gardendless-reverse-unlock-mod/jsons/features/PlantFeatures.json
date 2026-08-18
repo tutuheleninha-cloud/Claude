@@ -1,4 +1,10 @@
 {
+  "BASEUNLOCKLIST": [
+    "darkmatterdragonfruit",
+    "slingpea",
+    "cranjelly",
+    "umbrellaleaf"
+  ],
   "SEEDCHOOSERDEFAULTORDER": [
     "darkmatterdragonfruit",
     "slingpea",

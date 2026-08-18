@@ -23,6 +23,28 @@ See `jsons/features/almanac-order-changes.md`,
 `jsons/objects/shop-order-changes.md`, and
 `jsons/worldmap/worldmap-changes.md` for exactly what changed in each file.
 
+## v9 → v10: frontyard starting plants now actually reversed
+
+The v8→v9 fix below excluded `frontyard` from the reversal instead of
+actually fixing it — you correctly called that out. The real fix:
+`BASEUNLOCKLIST` is exactly the first 4 entries of the real
+`SEEDCHOOSERDEFAULTORDER` array
+(`peashooter, sunflower, wallnut, potatomine`), so it's now set to the
+first 4 entries of the *reversed* order instead
+(`darkmatterdragonfruit, slingpea, cranjelly, umbrellaleaf`) — a fresh
+save starts with those instead. The original starters land at the very
+end of the reversed order, same as everything else this mod reverses.
+`gpn-worldmap.json` still doesn't touch frontyard's map nodes (there's
+still nothing there for a `plantReward` to change — the node isn't what
+grants the plant), but that no longer matters since `BASEUNLOCKLIST` is
+the actual lever and it's now patched directly.
+
+Not covered: `marigold`, the 5th plant tagged `OBTAINWORLD: frontyard`
+in your data but *not* one of the 4 `BASEUNLOCKLIST` entries — it's
+presumably granted some other way (Zen Garden/coin purchase) that isn't
+in any file uploaded so far, so there's nothing confirmed to patch it
+against.
+
 ## v8 → v9: two confirmed bugs fixed from real testing
 
 You reported two specific things after the v8 fix got the pack loading:
@@ -104,8 +126,11 @@ estimated/guessed:
   Doom and `sky`/Sky City, `water`).
 - **`BASEUNLOCKLIST` is confirmed, in your real data, to be exactly**
   `["peashooter","sunflower","wallnut","potatomine"]` — 4 starting plants,
-  not a progression order. This confirms the earlier decision not to
-  touch it.
+  not a level-by-level progression order. It's *now* reversed too (see
+  v9→v10 above) — an earlier version of this mod left it untouched on the
+  theory that it wasn't worth reversing since it's a same-time grant, not
+  a sequence; your testing showed that reasoning was wrong in practice,
+  since it's the only lever that actually controls the starting plants.
 - **`SEEDCHOOSERDEFAULTORDER` has exactly 180 real entries** (matches the
   Almanac's own published plant count). Now reversed directly, mint
   entries removed, instead of a synthesized approximation.
@@ -159,7 +184,7 @@ estimated/guessed:
 
 ```
 pack.json                                 - GP-Next mod manifest
-jsons/features/PlantFeatures.json         - reversed SEEDCHOOSERDEFAULTORDER (166 real plants)
+jsons/features/PlantFeatures.json         - reversed SEEDCHOOSERDEFAULTORDER (166 real plants) + reversed BASEUNLOCKLIST (4 starting plants)
 jsons/features/almanac-order-changes.md   - full before/after table
 jsons/objects/StoreCommodityFeatures.json - reversed Shop costs (real 33-plant roster)
 jsons/objects/shop-order-changes.md       - before/after table
