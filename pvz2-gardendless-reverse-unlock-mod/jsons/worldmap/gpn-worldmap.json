@@ -1,6 +1,81 @@
 {
   "apiVersion": 1,
   "worlds": {
+    "frontyard": {
+      "map": {
+        "mode": "replace",
+        "mainline": [
+          {
+            "id": "lvl-frontyard-1",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "frontyard1"
+            ],
+            "title": "1"
+          },
+          {
+            "id": "plant-frontyard-1",
+            "type": "plant",
+            "template": {
+              "type": "plant"
+            },
+            "plantReward": "darkmatterdragonfruit"
+          },
+          {
+            "id": "lvl-frontyard-2",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "frontyard2"
+            ],
+            "title": "2"
+          },
+          {
+            "id": "plant-frontyard-2",
+            "type": "plant",
+            "template": {
+              "type": "plant"
+            },
+            "plantReward": "slingpea"
+          },
+          {
+            "id": "lvl-frontyard-3",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "frontyard3"
+            ],
+            "title": "3"
+          },
+          {
+            "id": "plant-frontyard-3",
+            "type": "plant",
+            "template": {
+              "type": "plant"
+            },
+            "plantReward": "cranjelly"
+          },
+          {
+            "id": "lvl-frontyard-4",
+            "type": "level",
+            "appearance": "normal",
+            "levels": [
+              "frontyard4"
+            ],
+            "title": "4"
+          },
+          {
+            "id": "plant-frontyard-4",
+            "type": "plant",
+            "template": {
+              "type": "plant"
+            },
+            "plantReward": "umbrellaleaf"
+          }
+        ]
+      }
+    },
     "egypt": {
       "map": {
         "mode": "replace",

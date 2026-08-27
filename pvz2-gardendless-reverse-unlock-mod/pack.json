@@ -1,9 +1,9 @@
 {
   "uuid": "d05172fe-8342-4247-aa4a-1d395f7fac64",
   "name": "Reverse Almanac Order",
-  "version": "10.0.0",
+  "version": "11.0.0",
   "priority": 100,
-  "description": "Reverses the seed-chooser order, starting plants (BASEUNLOCKLIST), Shop costs, and where each plant is unlocked (world map + Epic Quest, 133 slots), built from the user's real extracted PlantFeatures.json/PlantProps.json (excludes the real 14-plant Mints family). Plant nodes include the required template field. World map patch is experimental -- back up your save.",
+  "description": "Reverses the seed-chooser order, starting plants (BASEUNLOCKLIST), Shop costs, and where each plant is unlocked (world map + Epic Quest, 137 slots including frontyard), built from the user's real extracted PlantFeatures.json/PlantProps.json (excludes the real 14-plant Mints family). Plant nodes include the required template field. World map patch is experimental -- back up your save.",
   "author": "tutu.heleninha",
   "packFormatVersion": 1
 }

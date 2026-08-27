@@ -1,9 +1,15 @@
 # World map plant-reward reversal
 
-_133 plant-reward nodes across 15 real worlds + Epic Quest. "frontyard" is excluded (confirmed by testing: its plants don't change, consistent with BASEUNLOCKLIST pre-granting them). Every plant node now includes the required "template": {"type": "plant"} object, which was missing before and plausibly caused the New Plant! reveal screen to not show the reversed plant._
+_137 plant-reward nodes across 16 real worlds (frontyard included as of v11) + Epic Quest. Every plant node now includes the required "template": {"type": "plant"} object, which was missing before and plausibly caused the New Plant! reveal screen to not show the reversed plant._
+
+_v9→v10 excluded "frontyard" here on the theory that BASEUNLOCKLIST alone controlled its starting plants, and only patched BASEUNLOCKLIST. Testing showed the frontyard plants still weren't reversed even after that. v11 adds frontyard back with real `frontyard1`-`frontyard4` level nodes (same `<worldcode><n>` pattern used by every other world) and reversed plant-reward nodes, since the frontyard tutorial levels apparently drive their own "New Plant!" reveal independent of BASEUNLOCKLIST — BASEUNLOCKLIST is left reversed too, so both the save's starting inventory and the tutorial's reveal sequence now agree._
 
 | World | Node | Was granting | Now grants |
 |---|---|---|---|
+| frontyard | plant-frontyard-1 | peashooter | darkmatterdragonfruit |
+| frontyard | plant-frontyard-2 | sunflower | slingpea |
+| frontyard | plant-frontyard-3 | wallnut | cranjelly |
+| frontyard | plant-frontyard-4 | potatomine | umbrellaleaf |
 | egypt | plant-egypt-1 | cabbagepult | inferno |
 | egypt | plant-egypt-2 | bloomerang | mirrornut |
 | egypt | plant-egypt-3 | iceburg | poisonpeashooter |

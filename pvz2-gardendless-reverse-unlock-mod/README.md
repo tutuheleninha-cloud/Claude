@@ -15,13 +15,35 @@ Three independent, already-finished patches — nothing to build or run:
 - **`jsons/objects/StoreCommodityFeatures.json`** — reverses illustrative
   costs across the real 33-plant "market" (Shop) roster.
 - **`jsons/worldmap/gpn-worldmap.json`** — rebuilds the world map's
-  progression (`mainline`) for 15 real worlds + Epic Quest (excludes
-  `frontyard` — see v8→v9 below), reversing which `plant`-type node
-  grants which plant, globally across all 133 reward slots.
+  progression (`mainline`) for 16 real worlds (including `frontyard` as
+  of v11 — see v10→v11 below) + Epic Quest, reversing which `plant`-type
+  node grants which plant, globally across all 137 reward slots.
 
 See `jsons/features/almanac-order-changes.md`,
 `jsons/objects/shop-order-changes.md`, and
 `jsons/worldmap/worldmap-changes.md` for exactly what changed in each file.
+
+## v10 → v11: frontyard world map nodes added — the actual last piece
+
+You reported *again*, after v10 shipped, that frontyard plants still
+weren't reversed. The v10 fix (reversing `BASEUNLOCKLIST`) changes what a
+fresh save's inventory *starts holding*, but you pointed out frontyard is
+a real world whose name shows up throughout your uploaded data (its
+zombies use `OBTAINWORLD: "frontyard"` same as every other world) — it
+was never blank the way v9's "there's nothing there to patch" reasoning
+assumed. `gpn-worldmap.json` still had no `frontyard` entry at all, so the
+tutorial levels' own "New Plant!" reveal sequence was running off
+whatever the game's built-in default frontyard nodes are — completely
+independent of `BASEUNLOCKLIST`, and unpatched by this mod either way.
+
+**Fixed:** `gpn-worldmap.json` now includes a real `frontyard` world with
+4 mainline nodes (`frontyard1`-`frontyard4`, the same `<worldcode><n>`
+pattern already used for every other world), each followed by a `plant`
+node with the required `template` field, granting the reversed order's
+first 4 plants (`darkmatterdragonfruit`, `slingpea`, `cranjelly`,
+`umbrellaleaf`) — same plants `BASEUNLOCKLIST` now starts you with, so the
+starting inventory and the tutorial's own reveal sequence finally agree.
+Total plant-reward slots: 133 → 137.
 
 ## v9 → v10: frontyard starting plants now actually reversed
 
@@ -34,10 +56,10 @@ first 4 entries of the *reversed* order instead
 (`darkmatterdragonfruit, slingpea, cranjelly, umbrellaleaf`) — a fresh
 save starts with those instead. The original starters land at the very
 end of the reversed order, same as everything else this mod reverses.
-`gpn-worldmap.json` still doesn't touch frontyard's map nodes (there's
-still nothing there for a `plantReward` to change — the node isn't what
-grants the plant), but that no longer matters since `BASEUNLOCKLIST` is
-the actual lever and it's now patched directly.
+At the time, `gpn-worldmap.json` still didn't touch frontyard's map nodes
+on the theory that `BASEUNLOCKLIST` was the only lever that mattered.
+Testing showed that assumption was wrong too — see v10→v11 above,
+which finally patches frontyard's own world map nodes as well.
 
 Not covered: `marigold`, the 5th plant tagged `OBTAINWORLD: frontyard`
 in your data but *not* one of the 4 `BASEUNLOCKLIST` entries — it's
@@ -188,7 +210,7 @@ jsons/features/PlantFeatures.json         - reversed SEEDCHOOSERDEFAULTORDER (16
 jsons/features/almanac-order-changes.md   - full before/after table
 jsons/objects/StoreCommodityFeatures.json - reversed Shop costs (real 33-plant roster)
 jsons/objects/shop-order-changes.md       - before/after table
-jsons/worldmap/gpn-worldmap.json          - reversed world-map plant rewards (15 real worlds + Epic Quest, 133 slots)
+jsons/worldmap/gpn-worldmap.json          - reversed world-map plant rewards (16 real worlds + Epic Quest, 137 slots)
 jsons/worldmap/worldmap-changes.md        - before/after table, per node
 ```
 
