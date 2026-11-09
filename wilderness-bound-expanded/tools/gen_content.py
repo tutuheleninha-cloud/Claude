@@ -65,7 +65,7 @@ def leaf_litter_decorators():
 def poplar(color, giant):
     """Poplar tree definitions in the vanilla format. Giant ones are taller and wider with more shelf mushrooms."""
     if giant:
-        trunk = {"type": "minecraft:poplar_trunk_placer", "base_height": 12, "branch_amount": {"type": "minecraft:uniform", "max_inclusive": 5, "min_inclusive": 2},
+        trunk = {"type": "minecraft:poplar_trunk_placer", "base_height": 12, "branch_amount": {"type": "minecraft:uniform", "max_inclusive": 4, "min_inclusive": 2},
                  "height_rand_a": 6, "height_rand_b": 0, "trunk_height_above_branches": 5}
         foliage = {"type": "minecraft:poplar_foliage_placer", "height": {"type": "minecraft:uniform", "max_inclusive": 9, "min_inclusive": 7}, "offset": 0,
                    "radius": {"type": "minecraft:weighted_list", "distribution": [{"data": 7, "weight": 4}, {"data": 8, "weight": 4}, {"data": 9, "weight": 2}]},

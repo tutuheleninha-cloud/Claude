@@ -177,7 +177,7 @@
     "base_height": 12,
     "branch_amount": {
       "type": "minecraft:uniform",
-      "max_inclusive": 5,
+      "max_inclusive": 4,
       "min_inclusive": 2
     },
     "height_rand_a": 6,
