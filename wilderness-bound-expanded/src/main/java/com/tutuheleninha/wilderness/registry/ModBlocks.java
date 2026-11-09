@@ -61,8 +61,9 @@ public final class ModBlocks {
 			HOLLOW_LOGS.put(wood, hollow);
 			hollowByStripped.put(wood.strippedLog(), hollow);
 
+			// The log's map colour function reads the vertical AXIS property, which benches don't have.
 			LOG_BENCHES.put(wood, registerWithItem(wood.logName() + "_bench", LogBenchBlock::new,
-					BlockBehaviour.Properties.ofFullCopy(wood.log()).noOcclusion()));
+					BlockBehaviour.Properties.ofFullCopy(wood.log()).mapColor(wood.planks().defaultMapColor()).noOcclusion()));
 
 			PARQUETS.put(wood, registerWithItem(wood.woodName() + "_parquet", Block::new,
 					BlockBehaviour.Properties.ofFullCopy(wood.planks())));
