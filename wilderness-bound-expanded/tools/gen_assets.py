@@ -29,6 +29,13 @@ GENERATED = [
     os.path.join(DATA_NS, "recipe"),
     os.path.join(DATA_NS, "tags"),
     os.path.join(DATA_NS, "context_int_provider"),
+    os.path.join(DATA_NS, "worldgen"),
+    os.path.join(DATA_NS, "banner_pattern"),
+    os.path.join(DATA_NS, "enchantment"),
+    os.path.join(DATA_NS, "painting_variant"),
+    os.path.join(DATA_NS, "wolf_variant"),
+    os.path.join(DATA_NS, "villager_trade"),
+    os.path.join(DATA_NS, "advancement"),
     os.path.join(DATA_MC, "tags"),
 ]
 

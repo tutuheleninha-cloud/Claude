@@ -10,6 +10,7 @@ import com.tutuheleninha.wilderness.registry.ModEntities;
 import com.tutuheleninha.wilderness.registry.ModEntitySpawnEggs;
 import com.tutuheleninha.wilderness.registry.ModEvents;
 import com.tutuheleninha.wilderness.registry.ModItems;
+import com.tutuheleninha.wilderness.worldgen.ModBiomeModifications;
 
 import net.minecraft.resources.Identifier;
 
@@ -28,6 +29,7 @@ public class WildernessMod implements ModInitializer {
 		ModEntitySpawnEggs.init();
 		ModCreativeTabs.init();
 		ModEvents.init();
+		ModBiomeModifications.init();
 		LOGGER.info("Wilderness Bound Expanded loaded");
 	}
 
