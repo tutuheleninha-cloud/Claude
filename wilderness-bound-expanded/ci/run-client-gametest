@@ -1,0 +1,1 @@
+Flag file: when present, CI runs the client game test under Xvfb and saves screenshots.

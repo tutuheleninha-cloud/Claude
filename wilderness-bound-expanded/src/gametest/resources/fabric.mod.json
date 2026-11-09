@@ -1,0 +1,19 @@
+{
+	"schemaVersion": 1,
+	"id": "wilderness-gametest",
+	"version": "1.0.0",
+	"name": "Wilderness Bound Expanded - Game Tests",
+	"environment": "*",
+	"license": "MIT",
+	"entrypoints": {
+		"fabric-gametest": [
+			"com.tutuheleninha.wilderness.test.WildernessGameTests"
+		],
+		"fabric-client-gametest": [
+			"com.tutuheleninha.wilderness.test.client.WildernessClientGameTest"
+		]
+	},
+	"depends": {
+		"wilderness": "*"
+	}
+}

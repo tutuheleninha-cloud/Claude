@@ -1,0 +1,25 @@
+# Gradle / Loom
+.gradle/
+build/
+run/
+out/
+.kotlin/
+
+# IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+.vscode/
+bin/
+.classpath
+.project
+.settings/
+
+# Python tool caches
+__pycache__/
+*.pyc
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "wilderness",
+	"version": "${version}",
+	"name": "Wilderness Bound Expanded",
+	"description": "Reimagines the Wilderness Bound game drop as a full-size update: new biomes, wildlife, camping, cooking, building blocks and more, all in a vanilla style.",
+	"authors": [
+		"tutuheleninha"
+	],
+	"license": "MIT",
+	"icon": "assets/wilderness/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.tutuheleninha.wilderness.WildernessMod"
+		],
+		"client": [
+			"com.tutuheleninha.wilderness.client.WildernessClient"
+		]
+	},
+	"mixins": [
+		"wilderness.mixins.json",
+		{
+			"config": "wilderness.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.20.1",
+		"minecraft": "~26.3",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
