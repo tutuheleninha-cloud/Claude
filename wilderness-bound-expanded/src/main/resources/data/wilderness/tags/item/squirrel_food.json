@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "wilderness:acorn",
+    "minecraft:sweet_berries",
+    "minecraft:glow_berries"
+  ]
+}

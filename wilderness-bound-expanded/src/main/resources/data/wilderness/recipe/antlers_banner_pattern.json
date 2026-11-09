@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:paper",
+    "wilderness:antler"
+  ],
+  "result": {
+    "id": "wilderness:antlers_banner_pattern"
+  }
+}

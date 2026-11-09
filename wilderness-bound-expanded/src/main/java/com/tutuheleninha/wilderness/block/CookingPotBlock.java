@@ -194,7 +194,7 @@ public class CookingPotBlock extends BaseEntityBlock {
 				ItemStack taken = pot.removeLastIngredient();
 
 				if (!player.getInventory().add(taken)) {
-					player.drop(taken, false);
+					Block.popResource(level, pos.above(), taken);
 				}
 			}
 

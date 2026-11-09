@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "wilderness:block/birch_log_bench"
+    },
+    "axis=z": {
+      "model": "wilderness:block/birch_log_bench",
+      "y": 90
+    }
+  }
+}

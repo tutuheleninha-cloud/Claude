@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wilderness:block/warped_parquet_slab"
+    },
+    "type=double": {
+      "model": "wilderness:block/warped_parquet"
+    },
+    "type=top": {
+      "model": "wilderness:block/warped_parquet_slab_top"
+    }
+  }
+}

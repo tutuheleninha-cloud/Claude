@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "wilderness:block/thatch_horizontal",
+      "x": 90,
+      "y": 90
+    },
+    "axis=y": {
+      "model": "wilderness:block/thatch"
+    },
+    "axis=z": {
+      "model": "wilderness:block/thatch_horizontal",
+      "x": 90
+    }
+  }
+}

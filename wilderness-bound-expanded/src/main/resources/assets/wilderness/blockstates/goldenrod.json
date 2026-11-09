@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=lower": {
+      "model": "wilderness:block/goldenrod_bottom"
+    },
+    "half=upper": {
+      "model": "wilderness:block/goldenrod_top"
+    }
+  }
+}

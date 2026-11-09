@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "wilderness:block/hollow_poplar_log"
+    },
+    "axis=z": {
+      "model": "wilderness:block/hollow_poplar_log",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "wilderness:block/hollow_poplar_log",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

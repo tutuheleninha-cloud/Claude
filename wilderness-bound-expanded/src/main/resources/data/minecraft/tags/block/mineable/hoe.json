@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "wilderness:thatch",
+    "wilderness:thatch_stairs",
+    "wilderness:thatch_slab"
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "wilderness:terracotta_wall",
+    "wilderness:white_terracotta_wall",
+    "wilderness:orange_terracotta_wall",
+    "wilderness:magenta_terracotta_wall",
+    "wilderness:light_blue_terracotta_wall",
+    "wilderness:yellow_terracotta_wall",
+    "wilderness:lime_terracotta_wall",
+    "wilderness:pink_terracotta_wall",
+    "wilderness:gray_terracotta_wall",
+    "wilderness:light_gray_terracotta_wall",
+    "wilderness:cyan_terracotta_wall",
+    "wilderness:purple_terracotta_wall",
+    "wilderness:blue_terracotta_wall",
+    "wilderness:brown_terracotta_wall",
+    "wilderness:green_terracotta_wall",
+    "wilderness:red_terracotta_wall",
+    "wilderness:black_terracotta_wall"
+  ]
+}

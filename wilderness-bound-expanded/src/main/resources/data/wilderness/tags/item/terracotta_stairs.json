@@ -1,0 +1,22 @@
+{
+  "replace": false,
+  "values": [
+    "wilderness:terracotta_stairs",
+    "wilderness:white_terracotta_stairs",
+    "wilderness:orange_terracotta_stairs",
+    "wilderness:magenta_terracotta_stairs",
+    "wilderness:light_blue_terracotta_stairs",
+    "wilderness:yellow_terracotta_stairs",
+    "wilderness:lime_terracotta_stairs",
+    "wilderness:pink_terracotta_stairs",
+    "wilderness:gray_terracotta_stairs",
+    "wilderness:light_gray_terracotta_stairs",
+    "wilderness:cyan_terracotta_stairs",
+    "wilderness:purple_terracotta_stairs",
+    "wilderness:blue_terracotta_stairs",
+    "wilderness:brown_terracotta_stairs",
+    "wilderness:green_terracotta_stairs",
+    "wilderness:red_terracotta_stairs",
+    "wilderness:black_terracotta_stairs"
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "wilderness:block/crimson_stem_bench"
+    },
+    "axis=z": {
+      "model": "wilderness:block/crimson_stem_bench",
+      "y": 90
+    }
+  }
+}

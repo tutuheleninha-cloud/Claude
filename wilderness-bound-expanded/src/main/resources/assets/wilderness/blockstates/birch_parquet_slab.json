@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wilderness:block/birch_parquet_slab"
+    },
+    "type=double": {
+      "model": "wilderness:block/birch_parquet"
+    },
+    "type=top": {
+      "model": "wilderness:block/birch_parquet_slab_top"
+    }
+  }
+}

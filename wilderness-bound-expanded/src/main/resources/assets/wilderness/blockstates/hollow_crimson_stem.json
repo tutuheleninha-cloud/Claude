@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "wilderness:block/hollow_crimson_stem"
+    },
+    "axis=z": {
+      "model": "wilderness:block/hollow_crimson_stem",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "wilderness:block/hollow_crimson_stem",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

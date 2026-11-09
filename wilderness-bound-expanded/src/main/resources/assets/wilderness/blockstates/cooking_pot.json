@@ -1,0 +1,132 @@
+{
+  "multipart": [
+    {
+      "apply": {
+        "model": "wilderness:block/cooking_pot"
+      },
+      "when": {
+        "facing": "north"
+      }
+    },
+    {
+      "apply": {
+        "model": "wilderness:block/cooking_pot_hanger"
+      },
+      "when": {
+        "facing": "north",
+        "hanging": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "wilderness:block/cooking_pot",
+        "y": 90
+      },
+      "when": {
+        "facing": "east"
+      }
+    },
+    {
+      "apply": {
+        "model": "wilderness:block/cooking_pot_hanger",
+        "y": 90
+      },
+      "when": {
+        "facing": "east",
+        "hanging": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "wilderness:block/cooking_pot",
+        "y": 180
+      },
+      "when": {
+        "facing": "south"
+      }
+    },
+    {
+      "apply": {
+        "model": "wilderness:block/cooking_pot_hanger",
+        "y": 180
+      },
+      "when": {
+        "facing": "south",
+        "hanging": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "wilderness:block/cooking_pot",
+        "y": 270
+      },
+      "when": {
+        "facing": "west"
+      }
+    },
+    {
+      "apply": {
+        "model": "wilderness:block/cooking_pot_hanger",
+        "y": 270
+      },
+      "when": {
+        "facing": "west",
+        "hanging": "true"
+      }
+    },
+    {
+      "apply": {
+        "model": "wilderness:block/cooking_pot_water_1"
+      },
+      "when": {
+        "contents": "water",
+        "servings": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "wilderness:block/cooking_pot_water_2"
+      },
+      "when": {
+        "contents": "water",
+        "servings": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "wilderness:block/cooking_pot_water_3"
+      },
+      "when": {
+        "contents": "water",
+        "servings": "3"
+      }
+    },
+    {
+      "apply": {
+        "model": "wilderness:block/cooking_pot_stew_1"
+      },
+      "when": {
+        "contents": "stew",
+        "servings": "1"
+      }
+    },
+    {
+      "apply": {
+        "model": "wilderness:block/cooking_pot_stew_2"
+      },
+      "when": {
+        "contents": "stew",
+        "servings": "2"
+      }
+    },
+    {
+      "apply": {
+        "model": "wilderness:block/cooking_pot_stew_3"
+      },
+      "when": {
+        "contents": "stew",
+        "servings": "3"
+      }
+    }
+  ]
+}

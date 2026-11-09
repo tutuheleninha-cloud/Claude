@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "wilderness:oak_log_bench",
+    "wilderness:spruce_log_bench",
+    "wilderness:birch_log_bench",
+    "wilderness:jungle_log_bench",
+    "wilderness:acacia_log_bench",
+    "wilderness:dark_oak_log_bench",
+    "wilderness:mangrove_log_bench",
+    "wilderness:cherry_log_bench",
+    "wilderness:pale_oak_log_bench",
+    "wilderness:poplar_log_bench",
+    "wilderness:crimson_stem_bench",
+    "wilderness:warped_stem_bench"
+  ]
+}
