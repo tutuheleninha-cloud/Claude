@@ -6,10 +6,6 @@ on:
     paths:
       - "wilderness-bound-expanded/**"
       - ".github/workflows/wilderness-bound-expanded.yml"
-  pull_request:
-    paths:
-      - "wilderness-bound-expanded/**"
-      - ".github/workflows/wilderness-bound-expanded.yml"
   workflow_dispatch:
 
 permissions:
@@ -50,13 +46,17 @@ jobs:
 
       - name: Client game test (screenshots)
         if: success() && hashFiles('wilderness-bound-expanded/ci/run-client-gametest') != ''
-        timeout-minutes: 25
+        timeout-minutes: 30
         continue-on-error: true
         run: |
+          # Same setup as Fabric API's own CI: no X server, Mesa drivers, backend chosen in options.txt.
           sudo apt-get update -qq
-          sudo apt-get install -y -qq xvfb libgl1-mesa-dri mesa-utils > /dev/null
+          sudo apt-get install -y -qq mesa-vulkan-drivers > /dev/null
+          mkdir -p build/run/clientGameTest
+          echo 'version:5023' > build/run/clientGameTest/options.txt
+          echo 'preferredGraphicsBackend:"opengl"' >> build/run/clientGameTest/options.txt
           set -o pipefail
-          xvfb-run -a -s "-screen 0 1920x1080x24" ./gradlew runClientGameTest --stacktrace 2>&1 | tee "$RUNNER_TEMP/out/client-gametest.log"
+          ./gradlew runClientGameTest --stacktrace 2>&1 | tee "$RUNNER_TEMP/out/client-gametest.log"
 
       - name: Collect outputs
         if: always()

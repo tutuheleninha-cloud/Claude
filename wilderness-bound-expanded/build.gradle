@@ -30,7 +30,8 @@ fabricApi {
 		createSourceSet = true
 		modId = "wilderness-gametest"
 		eula = true
-		clearRunDirectory = true
+		// The CI writes options.txt (graphics backend) into the run directory before starting the client.
+		clearRunDirectory = false
 	}
 }
 
