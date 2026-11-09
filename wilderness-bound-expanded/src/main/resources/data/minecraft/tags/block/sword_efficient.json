@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "wilderness:cattail",
+    "wilderness:goldenrod",
+    "wilderness:cranberry_bush"
+  ]
+}

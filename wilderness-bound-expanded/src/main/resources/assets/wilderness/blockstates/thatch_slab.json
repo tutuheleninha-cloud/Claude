@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "wilderness:block/thatch_slab"
+    },
+    "type=double": {
+      "model": "wilderness:block/thatch"
+    },
+    "type=top": {
+      "model": "wilderness:block/thatch_slab_top"
+    }
+  }
+}

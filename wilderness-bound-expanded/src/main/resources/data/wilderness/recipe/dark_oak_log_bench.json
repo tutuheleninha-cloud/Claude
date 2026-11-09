@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "decorations",
+  "group": "log_bench",
+  "key": {
+    "#": "minecraft:stripped_dark_oak_log",
+    "|": "minecraft:stick"
+  },
+  "pattern": [
+    "##",
+    "||"
+  ],
+  "result": {
+    "count": 2,
+    "id": "wilderness:dark_oak_log_bench"
+  }
+}

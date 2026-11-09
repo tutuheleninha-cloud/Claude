@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "decorations",
+  "key": {
+    "A": "wilderness:antler",
+    "C": "minecraft:candle",
+    "I": "minecraft:iron_chain"
+  },
+  "pattern": [
+    " I ",
+    "CAC",
+    "A A"
+  ],
+  "result": {
+    "id": "wilderness:antler_chandelier"
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "type": "minecraft:weighted_random_selector",
+  "features": [
+    {
+      "data": "wilderness:giant_red_poplar",
+      "weight": 110
+    },
+    {
+      "data": "wilderness:giant_orange_poplar",
+      "weight": 130
+    },
+    {
+      "data": "wilderness:giant_yellow_poplar",
+      "weight": 50
+    },
+    {
+      "data": "minecraft:red_poplar_leaf_litter",
+      "weight": 60
+    },
+    {
+      "data": "minecraft:orange_poplar_leaf_litter",
+      "weight": 70
+    },
+    {
+      "data": "minecraft:spruce_checked",
+      "weight": 30
+    },
+    {
+      "data": "minecraft:fallen_poplar_tree",
+      "weight": 40
+    },
+    {
+      "data": "wilderness:fallen_hollow_poplar_tree_checked",
+      "weight": 80
+    }
+  ]
+}

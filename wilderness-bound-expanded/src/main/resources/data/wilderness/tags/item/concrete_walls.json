@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "wilderness:white_concrete_wall",
+    "wilderness:orange_concrete_wall",
+    "wilderness:magenta_concrete_wall",
+    "wilderness:light_blue_concrete_wall",
+    "wilderness:yellow_concrete_wall",
+    "wilderness:lime_concrete_wall",
+    "wilderness:pink_concrete_wall",
+    "wilderness:gray_concrete_wall",
+    "wilderness:light_gray_concrete_wall",
+    "wilderness:cyan_concrete_wall",
+    "wilderness:purple_concrete_wall",
+    "wilderness:blue_concrete_wall",
+    "wilderness:brown_concrete_wall",
+    "wilderness:green_concrete_wall",
+    "wilderness:red_concrete_wall",
+    "wilderness:black_concrete_wall"
+  ]
+}

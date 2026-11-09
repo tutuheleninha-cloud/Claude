@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "#": "wilderness:acacia_parquet"
+  },
+  "pattern": [
+    "###"
+  ],
+  "result": {
+    "count": 6,
+    "id": "wilderness:acacia_parquet_slab"
+  },
+  "group": "parquet_slab"
+}

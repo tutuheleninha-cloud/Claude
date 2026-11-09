@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "wilderness:oak_parquet_slab",
+    "wilderness:spruce_parquet_slab",
+    "wilderness:birch_parquet_slab",
+    "wilderness:jungle_parquet_slab",
+    "wilderness:acacia_parquet_slab",
+    "wilderness:dark_oak_parquet_slab",
+    "wilderness:mangrove_parquet_slab",
+    "wilderness:cherry_parquet_slab",
+    "wilderness:pale_oak_parquet_slab",
+    "wilderness:poplar_parquet_slab",
+    "wilderness:crimson_parquet_slab",
+    "wilderness:warped_parquet_slab"
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/cube_column_horizontal",
+  "textures": {
+    "end": "wilderness:block/thatch_top",
+    "side": "wilderness:block/thatch_side"
+  }
+}

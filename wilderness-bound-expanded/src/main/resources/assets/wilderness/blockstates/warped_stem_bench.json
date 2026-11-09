@@ -1,0 +1,11 @@
+{
+  "variants": {
+    "axis=x": {
+      "model": "wilderness:block/warped_stem_bench"
+    },
+    "axis=z": {
+      "model": "wilderness:block/warped_stem_bench",
+      "y": 90
+    }
+  }
+}

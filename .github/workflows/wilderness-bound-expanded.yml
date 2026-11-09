@@ -1,0 +1,81 @@
+name: Wilderness Bound Expanded
+
+on:
+  push:
+    branches: [ "ccr-184dae56-9ubqlo" ]
+    paths:
+      - "wilderness-bound-expanded/**"
+      - ".github/workflows/wilderness-bound-expanded.yml"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: wilderness-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 75
+    defaults:
+      run:
+        working-directory: wilderness-bound-expanded
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: 25
+
+      - uses: gradle/actions/setup-gradle@v4
+
+      - name: Prepare output folder
+        run: mkdir -p "$RUNNER_TEMP/out"
+
+      - name: Build + server game tests
+        run: |
+          set -o pipefail
+          ./gradlew build --stacktrace 2>&1 | tee "$RUNNER_TEMP/out/build.log"
+
+      - name: API reference dump
+        if: always() && hashFiles('wilderness-bound-expanded/ci/reference-dump') != ''
+        run: bash ci/reference-dump.sh "$RUNNER_TEMP/out"
+
+      - name: Client game test (screenshots)
+        if: success() && hashFiles('wilderness-bound-expanded/ci/run-client-gametest') != ''
+        timeout-minutes: 30
+        continue-on-error: true
+        run: |
+          # Same setup as Fabric API's own CI: no X server, Mesa drivers, backend chosen in options.txt.
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq mesa-vulkan-drivers > /dev/null
+          mkdir -p build/run/clientGameTest
+          echo 'version:5023' > build/run/clientGameTest/options.txt
+          echo 'preferredGraphicsBackend:"opengl"' >> build/run/clientGameTest/options.txt
+          set -o pipefail
+          ./gradlew runClientGameTest --stacktrace 2>&1 | tee "$RUNNER_TEMP/out/client-gametest.log"
+
+      - name: Collect outputs
+        if: always()
+        run: |
+          cp build/libs/*.jar "$RUNNER_TEMP/out/" 2>/dev/null || true
+          mkdir -p "$RUNNER_TEMP/out/screenshots" "$RUNNER_TEMP/out/logs"
+          cp -r build/run/clientGameTest/screenshots/. "$RUNNER_TEMP/out/screenshots/" 2>/dev/null || true
+          cp build/run/gameTest/logs/latest.log "$RUNNER_TEMP/out/logs/gametest-latest.log" 2>/dev/null || true
+          cp build/run/clientGameTest/logs/latest.log "$RUNNER_TEMP/out/logs/client-latest.log" 2>/dev/null || true
+          cp -r build/run/clientGameTest/crash-reports "$RUNNER_TEMP/out/logs/" 2>/dev/null || true
+          cp -r build/run/gameTest/crash-reports "$RUNNER_TEMP/out/logs/server-crash-reports" 2>/dev/null || true
+          find build/test-results -name "*.xml" -exec cp {} "$RUNNER_TEMP/out/logs/" \; 2>/dev/null || true
+          echo "${GITHUB_SHA}" > "$RUNNER_TEMP/out/commit.txt"
+
+      - name: Publish outputs to the wilderness-ci-output branch
+        if: always()
+        working-directory: ${{ runner.temp }}/out
+        run: |
+          git init -q -b wilderness-ci-output
+          git add -A
+          git -c user.name="wilderness-ci" -c user.email="wilderness-ci@users.noreply.github.com" commit -q -m "CI output for ${GITHUB_SHA}"
+          git push -q -f "https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git" HEAD:wilderness-ci-output

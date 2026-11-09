@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "wilderness:hollow_oak_log",
+    "wilderness:hollow_spruce_log",
+    "wilderness:hollow_birch_log",
+    "wilderness:hollow_jungle_log",
+    "wilderness:hollow_acacia_log",
+    "wilderness:hollow_dark_oak_log",
+    "wilderness:hollow_mangrove_log",
+    "wilderness:hollow_cherry_log",
+    "wilderness:hollow_pale_oak_log",
+    "wilderness:hollow_poplar_log",
+    "wilderness:hollow_crimson_stem",
+    "wilderness:hollow_warped_stem"
+  ]
+}

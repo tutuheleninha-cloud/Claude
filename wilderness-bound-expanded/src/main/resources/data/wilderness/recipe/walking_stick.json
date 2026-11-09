@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "/": "minecraft:stick",
+    "S": "minecraft:string",
+    "L": "minecraft:leather"
+  },
+  "pattern": [
+    "  /",
+    " S ",
+    "/  "
+  ],
+  "result": {
+    "id": "wilderness:walking_stick"
+  }
+}

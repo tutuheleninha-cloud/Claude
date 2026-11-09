@@ -1,0 +1,7 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "wilderness:peat_bricks",
+  "result": {
+    "id": "wilderness:peat_brick_stairs"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "variants": {
+    "stones=1": [
+      {
+        "model": "wilderness:block/cairn_1"
+      },
+      {
+        "model": "wilderness:block/cairn_1",
+        "y": 90
+      },
+      {
+        "model": "wilderness:block/cairn_1",
+        "y": 180
+      },
+      {
+        "model": "wilderness:block/cairn_1",
+        "y": 270
+      }
+    ],
+    "stones=2": [
+      {
+        "model": "wilderness:block/cairn_2"
+      },
+      {
+        "model": "wilderness:block/cairn_2",
+        "y": 90
+      },
+      {
+        "model": "wilderness:block/cairn_2",
+        "y": 180
+      },
+      {
+        "model": "wilderness:block/cairn_2",
+        "y": 270
+      }
+    ],
+    "stones=3": [
+      {
+        "model": "wilderness:block/cairn_3"
+      },
+      {
+        "model": "wilderness:block/cairn_3",
+        "y": 90
+      },
+      {
+        "model": "wilderness:block/cairn_3",
+        "y": 180
+      },
+      {
+        "model": "wilderness:block/cairn_3",
+        "y": 270
+      }
+    ],
+    "stones=4": [
+      {
+        "model": "wilderness:block/cairn_4"
+      },
+      {
+        "model": "wilderness:block/cairn_4",
+        "y": 90
+      },
+      {
+        "model": "wilderness:block/cairn_4",
+        "y": 180
+      },
+      {
+        "model": "wilderness:block/cairn_4",
+        "y": 270
+      }
+    ]
+  }
+}

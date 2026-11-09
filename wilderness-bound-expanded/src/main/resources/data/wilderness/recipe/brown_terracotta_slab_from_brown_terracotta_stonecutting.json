@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": "minecraft:brown_terracotta",
+  "result": {
+    "id": "wilderness:brown_terracotta_slab",
+    "count": 2
+  }
+}

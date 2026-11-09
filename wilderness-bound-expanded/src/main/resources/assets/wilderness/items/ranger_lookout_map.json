@@ -1,0 +1,6 @@
+{
+  "model": {
+    "type": "minecraft:model",
+    "model": "wilderness:item/ranger_lookout_map"
+  }
+}

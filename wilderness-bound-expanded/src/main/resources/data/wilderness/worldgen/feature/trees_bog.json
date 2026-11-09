@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:weighted_random_selector",
+  "features": [
+    {
+      "data": "wilderness:bog_spruce_checked",
+      "weight": 6
+    },
+    {
+      "data": "minecraft:spruce_checked",
+      "weight": 1
+    },
+    {
+      "data": "minecraft:yellow_poplar_leaf_litter",
+      "weight": 1
+    },
+    {
+      "data": "wilderness:fallen_hollow_spruce_tree_checked",
+      "weight": 1
+    }
+  ]
+}
